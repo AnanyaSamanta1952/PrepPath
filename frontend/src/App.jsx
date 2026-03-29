@@ -1,5 +1,6 @@
 import { useState } from "react"
 import axios from "axios"
+import "./App.css"
 
 function App() {
 
@@ -33,37 +34,37 @@ function App() {
   }
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>PrepPath AI</h1>
+    <div className="container">
 
-      <form onSubmit={handleSubmit}>
-        <input name="dsa" placeholder="DSA solved" onChange={handleChange} />
-        <br /><br />
+      <div className="card">
+        <h1 className="title">PrepPath AI</h1>
 
-        <input name="projects" placeholder="Projects" onChange={handleChange} />
-        <br /><br />
+        <form onSubmit={handleSubmit}>
+          <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
 
-        <input name="mock" placeholder="Mock interviews" onChange={handleChange} />
-        <br /><br />
+          <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
 
-        <input name="hours" placeholder="Study hours" onChange={handleChange} />
-        <br /><br />
+          <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
 
-        <button type="submit">Analyze</button>
-      </form>
+          <input className="input" name="hours" placeholder="Study hours" onChange={handleChange} />
 
-      {result && (
-        <div>
-          <h2>Score: {result.score}</h2>
+          <button className="button" type="submit">Analyze</button>
+        </form>
 
-          <h3>Suggestions:</h3>
-          <ul>
-            {result.suggestions.map((s, i) => (
-              <li key={i}>{s}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+        {result && (
+          <div className="result">
+            <h2>Score: {result.score}</h2>
+
+            <h3>Suggestions:</h3>
+            <ul>
+              {result.suggestions.map((s, i) => (
+                <li key={i}>{s}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+
     </div>
   )
 }
