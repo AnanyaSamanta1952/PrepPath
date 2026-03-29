@@ -55,3 +55,16 @@
 .result {
   margin-top: 20px;
 }
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.toggle button {
+  width: 48%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
