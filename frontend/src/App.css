@@ -68,3 +68,15 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+.experience-section {
+  margin-top: 30px;
+  width: 350px;
+}
+
+.experience-card {
+  background: #0f172a;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}

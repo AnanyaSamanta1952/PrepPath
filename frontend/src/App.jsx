@@ -1,8 +1,9 @@
-import { useState } from "react"
 import axios from "axios"
+import { useState, useEffect } from "react"
 import './App.css'
 
 function App() {
+  const [seniors, setSeniors] = useState([])
   const [mode, setMode] = useState("fresher")
   const [form, setForm] = useState({
     dsa: "",
@@ -51,6 +52,15 @@ function App() {
     })
 
     alert("Senior data added!")
+  }
+
+  useEffect(() => {
+    fetchSeniors()
+  }, [])
+
+  const fetchSeniors = async () => {
+    const res = await axios.get("http://localhost:5000/api/senior-plans")
+    setSeniors(res.data)
   }
 
   return (
@@ -103,6 +113,21 @@ function App() {
             </ul>
           </div>
         )}
+      </div>
+
+      <div className="experience-section">
+        <h2>Interview Experiences</h2>
+
+        {seniors.map((s, i) => (
+          <div key={i} className="experience-card">
+            <h3>{s.company}</h3>
+            <p><b>DSA:</b> {s.dsa_problems}</p>
+            <p><b>Projects:</b> {s.projects}</p>
+            <p><b>Mocks:</b> {s.mock_interviews}</p>
+            <p><b>Hours:</b> {s.daily_hours}</p>
+            <p><b>Tips:</b> {s.tips}</p>
+          </div>
+        ))}
       </div>
 
     </div>
