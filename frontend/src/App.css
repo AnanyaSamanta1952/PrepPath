@@ -1,82 +1,50 @@
-/* Full screen background */
-.container {
-  min-height: 100vh;
+/* MAIN LAYOUT */
+.main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  min-height: 100vh;
   background: linear-gradient(to right, #0f172a, #1e293b);
   color: white;
 }
 
-/* Card */
+/* LEFT SIDE */
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* RIGHT SIDE */
+.right {
+  flex: 1.5;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* CARD */
 .card {
   background: #1e293b;
   padding: 30px;
   border-radius: 12px;
   width: 350px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-/* Title */
-.title {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-/* Inputs */
-.input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 12px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
-}
-
-/* Button */
-.button {
-  width: 100%;
-  padding: 10px;
-  border-radius: 8px;
-  border: none;
-  background: #3b82f6;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.button:hover {
-  background: #2563eb;
-  box-shadow: 0 0 10px #3b82f6;
-}
-
-/* Result */
-.result {
-  margin-top: 20px;
-}
-.toggle {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.toggle button {
-  width: 48%;
-  padding: 8px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
+/* EXPERIENCE */
 .experience-section {
-  margin-top: 30px;
-  width: 350px;
+  margin-top: 20px;
 }
 
 .experience-card {
   background: #0f172a;
   padding: 15px;
-  margin-top: 10px;
+  margin-top: 12px;
   border-radius: 10px;
+  transition: 0.3s;
+}
+
+.experience-card:hover {
+  transform: scale(1.02);
 }
