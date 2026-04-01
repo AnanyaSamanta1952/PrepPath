@@ -16,6 +16,7 @@ function App() {
   })
 
   const [result, setResult] = useState(null)
+  const companies = [...new Set(seniors.map(s => s.company))]
 
   const handleChange = (e) => {
     setForm({
@@ -45,7 +46,7 @@ function App() {
       dsa_problems: Number(form.dsa),
       projects: Number(form.projects),
       mock_interviews: Number(form.mock),
-      subjects: ["OS", "DBMS"],
+      subjects: form.subjects?.split(","),
       tips: form.tips
     })
 
@@ -62,91 +63,97 @@ function App() {
   }
 
   return (
-  <div className="main">
+    <div className="main">
 
-    {/* LEFT SIDE */}
-    <div className="left">
-      <div className="card">
-        <h1 className="title">PrepPath</h1>
+      {/* LEFT SIDE */}
+      <div className="left">
+        <div className="card">
+          <h1 className="title">PrepPath</h1>
 
-        <div className="toggle">
-          <button onClick={() => setMode("fresher")}>Fresher</button>
-          <button onClick={() => setMode("senior")}>Senior</button>
+          <div className="toggle">
+            <button onClick={() => setMode("fresher")}>Fresher</button>
+            <button onClick={() => setMode("senior")}>Senior</button>
+          </div>
+
+          {mode === "fresher" && (
+            <form onSubmit={handleSubmit}>
+              <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
+              <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
+              <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
+
+              <button className="button" type="submit">Analyze</button>
+            </form>
+          )}
+
+          {mode === "senior" && (
+            <form onSubmit={handleSeniorSubmit}>
+              <input className="input" name="company" placeholder="Company" onChange={handleChange} />
+              <input className="input" name="months" placeholder="Months of preparation" onChange={handleChange} />
+              <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
+              <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
+              <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
+              <input className="input" name="subjects" placeholder="Subjects (comma separated)" onChange={handleChange} />
+              <input className="input" name="tips" placeholder="Tips" onChange={handleChange} />
+
+              <button className="button" type="submit">Submit Experience</button>
+            </form>
+          )}
+
+          {result && (
+            <div className="result">
+              <h2>Score: {result.score}</h2>
+
+              <h3>Suggestions:</h3>
+              <ul>
+                {result.suggestions.map((s, i) => (
+                  <li key={i}>{s}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* RIGHT SIDE */}
+      <div className="right">
+
+        <select
+          className="input"
+          onChange={(e) => setCompanyFilter(e.target.value)}
+        >
+          <option value="">All Companies</option>
+
+          {companies.map((c, i) => (
+            <option key={i} value={c}>{c}</option>
+          ))}
+        </select>
+
+        <div className="experience-section">
+          <h2>Interview Experiences</h2>
+
+          {seniors
+            .filter((s) =>
+              companyFilter === "" || s.company?.toLowerCase() === companyFilter.toLowerCase()
+            )
+            .map((s, i) => (
+              <div key={i} className="experience-card">
+                <h3>🏢 {s.company}</h3>
+
+                <p>
+                  📊 {s.dsa_problems} DSA | {s.projects} Projects | {s.mock_interviews} Mocks
+                </p>
+
+                <p>📚 {s.subjects?.join(", ")}</p>
+
+                <p>💡 {s.tips}</p>
+              </div>
+            ))}
         </div>
 
-        {mode === "fresher" && (
-          <form onSubmit={handleSubmit}>
-            <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
-            <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
-            <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
-
-            <button className="button" type="submit">Analyze</button>
-          </form>
-        )}
-
-        {mode === "senior" && (
-          <form onSubmit={handleSeniorSubmit}>
-            <input className="input" name="company" placeholder="Company" onChange={handleChange} />
-            <input className="input" name="months" placeholder="Months of preparation" onChange={handleChange} />
-            <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
-            <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
-            <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
-            <input className="input" name="tips" placeholder="Tips" onChange={handleChange} />
-
-            <button className="button" type="submit">Submit Experience</button>
-          </form>
-        )}
-
-        {result && (
-          <div className="result">
-            <h2>Score: {result.score}</h2>
-
-            <h3>Suggestions:</h3>
-            <ul>
-              {result.suggestions.map((s, i) => (
-                <li key={i}>{s}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </div>
-    </div>
-
-    {/* RIGHT SIDE */}
-    <div className="right">
-
-      <select
-        className="input"
-        onChange={(e) => setCompanyFilter(e.target.value)}
-      >
-        <option value="">All Companies</option>
-        <option value="Amazon">Amazon</option>
-        <option value="Microsoft">Microsoft</option>
-        <option value="Google">Google</option>
-      </select>
-
-      <div className="experience-section">
-        <h2>Interview Experiences</h2>
-
-        {seniors
-          .filter((s) =>
-            companyFilter === "" || s.company === companyFilter
-          )
-          .map((s, i) => (
-            <div key={i} className="experience-card">
-              <h3>{s.company}</h3>
-              <p><b>DSA:</b> {s.dsa_problems}</p>
-              <p><b>Projects:</b> {s.projects}</p>
-              <p><b>Mocks:</b> {s.mock_interviews}</p>
-              <p><b>Tips:</b> {s.tips}</p>
-            </div>
-          ))}
       </div>
 
     </div>
-
-  </div>
-)
+  )
 }
 
 export default App
