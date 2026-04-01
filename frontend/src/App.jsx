@@ -3,6 +3,10 @@ import { useState, useEffect } from "react"
 import './App.css'
 
 function App() {
+  const handleDelete = async (id) => {
+    await axios.delete(`http://localhost:5000/api/senior-plan/${id}`)
+    fetchSeniors()
+  }
   const [companyFilter, setCompanyFilter] = useState("")
   const [seniors, setSeniors] = useState([])
   const [mode, setMode] = useState("fresher")
@@ -36,6 +40,17 @@ function App() {
 
     setResult(res.data)
   }
+  const handleEdit = (s) => {
+    setMode("senior")
+    setForm({
+      dsa: s.dsa_problems,
+      projects: s.projects,
+      mock: s.mock_interviews,
+      company: s.company,
+      months: s.months_of_preparation,
+      tips: s.tips
+    })
+  }
   const handleSeniorSubmit = async (e) => {
     e.preventDefault()
 
@@ -46,7 +61,6 @@ function App() {
       dsa_problems: Number(form.dsa),
       projects: Number(form.projects),
       mock_interviews: Number(form.mock),
-      subjects: form.subjects?.split(","),
       tips: form.tips
     })
 
@@ -92,7 +106,6 @@ function App() {
               <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
               <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
               <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
-              <input className="input" name="subjects" placeholder="Subjects (comma separated)" onChange={handleChange} />
               <input className="input" name="tips" placeholder="Tips" onChange={handleChange} />
 
               <button className="button" type="submit">Submit Experience</button>
@@ -143,9 +156,11 @@ function App() {
                   📊 {s.dsa_problems} DSA | {s.projects} Projects | {s.mock_interviews} Mocks
                 </p>
 
-                <p>📚 {s.subjects?.join(", ")}</p>
-
                 <p>💡 {s.tips}</p>
+                <div className="actions">
+                  <button onClick={() => handleEdit(s)}>Edit</button>
+                  <button onClick={() => handleDelete(s._id)}>Delete</button>
+                </div>
               </div>
             ))}
         </div>
