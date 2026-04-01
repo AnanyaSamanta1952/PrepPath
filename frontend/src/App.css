@@ -29,7 +29,7 @@
   padding: 30px;
   border-radius: 12px;
   width: 350px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 /* EXPERIENCE */
@@ -47,4 +47,27 @@
 
 .experience-card:hover {
   transform: scale(1.02);
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: #f59e0b;
+  color: white;
+}
+
+.actions button:last-child {
+  background: #ef4444;
+  color: white;
 }
