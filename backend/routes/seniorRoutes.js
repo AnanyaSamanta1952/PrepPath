@@ -7,7 +7,6 @@ const SeniorPlan = require("../models/SeniorPlan")
 router.post("/senior-plan", async (req, res) => {
     try {
         console.log("BODY RECEIVED:", req.body)
-
         const newPlan = new SeniorPlan(req.body)
         await newPlan.save()
         res.json({ message: "Senior plan added successfully" })
