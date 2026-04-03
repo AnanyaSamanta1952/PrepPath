@@ -11,7 +11,6 @@ const seniorPlanSchema=new mongoose.Schema({
     dsa_problems:Number,
     projects: Number, 
     mock_interviews:Number,
-    daily_hours:Number,
     subjects:[String],
     tips:String
 })
