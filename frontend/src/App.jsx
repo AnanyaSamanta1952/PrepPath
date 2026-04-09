@@ -1,11 +1,43 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
 import './App.css'
+import Swal from "sweetalert2"
+import "animate.css"
 
 function App() {
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:5000/api/senior-plan/${id}`)
-    fetchSeniors()
+    const result = await Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to recover this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#ef4444",
+      cancelButtonColor: "#6b7280",
+      confirmButtonText: "Yes, delete it!",
+
+      showClass: {
+        popup: "animate__animated animate__fadeInDown"
+      },
+      hideClass: {
+        popup: "animate__animated animate__fadeOutUp"
+      }
+    })
+
+    if (result.isConfirmed) {
+      try {
+        await axios.delete(`http://localhost:5000/api/senior-plan/${id}`)
+
+        await Swal.fire(
+          "Deleted!",
+          "Your experience has been deleted.",
+          "success"
+        )
+
+        fetchSeniors()
+      } catch (error) {
+        Swal.fire("Error", "Something went wrong", "error")
+      }
+    }
   }
   const [companyFilter, setCompanyFilter] = useState("")
   const [seniors, setSeniors] = useState([])
