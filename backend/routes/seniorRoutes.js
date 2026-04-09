@@ -45,4 +45,18 @@ router.delete("/clear-seniors", async (req, res) => {
     }
 })
 
+// UPDATE - Edit senior plan
+router.put("/senior-plan/:id", async (req, res) => {
+    try {
+        const updated = await SeniorPlan.findByIdAndUpdate(
+            req.params.id,
+            req.body,
+            { new: true }
+        )
+        res.json(updated)
+    } catch (error) {
+        res.status(500).json({ error: error.message })
+    }
+})
+
 module.exports = router
