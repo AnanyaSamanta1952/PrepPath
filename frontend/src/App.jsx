@@ -6,6 +6,8 @@ import "animate.css"
 
 function App() {
   const handleDelete = async (id) => {
+
+
     const result = await Swal.fire({
       title: "Are you sure?",
       text: "You won't be able to recover this!",
@@ -39,6 +41,7 @@ function App() {
       }
     }
   }
+
   const [companyFilter, setCompanyFilter] = useState("")
   const [seniors, setSeniors] = useState([])
   const [mode, setMode] = useState("fresher")
@@ -54,6 +57,26 @@ function App() {
 
   const [result, setResult] = useState(null)
   const companies = [...new Set(seniors.map(s => s.company))]
+  const resetFresherForm = () => {
+    setForm((prev) => ({
+      ...prev,
+      dsa: "",
+      projects: "",
+      mock: ""
+    }))
+  }
+
+  const resetSeniorForm = () => {
+    setForm((prev) => ({
+      ...prev,
+      company: "",
+      months: "",
+      dsa: "",
+      projects: "",
+      mock: "",
+      tips: ""
+    }))
+  }
 
   const handleChange = (e) => {
     setForm({
@@ -72,6 +95,7 @@ function App() {
     })
 
     setResult(res.data)
+    resetFresherForm()
   }
   const handleEdit = (s) => {
     setMode("senior")
@@ -100,7 +124,6 @@ function App() {
         tips: form.tips
       })
 
-      alert("Updated successfully!")
     } else {
       // CREATE
       await axios.post("http://localhost:5000/api/senior-plan", {
@@ -113,10 +136,17 @@ function App() {
         tips: form.tips
       })
 
-      alert("Senior data added!")
+      await Swal.fire({
+        title: "Success!",
+        text: editId ? "Updated successfully!" : "Senior data added!",
+        icon: "success",
+        timer: 1500,
+        showConfirmButton: false
+      })
     }
 
     setEditId(null)
+    resetSeniorForm()
     fetchSeniors()
   }
 
@@ -138,15 +168,27 @@ function App() {
           <h1 className="title">PrepPath</h1>
 
           <div className="toggle">
-            <button onClick={() => setMode("fresher")}>Fresher</button>
-            <button onClick={() => setMode("senior")}>Senior</button>
+            <button onClick={() => {
+              setMode("fresher")
+              resetSeniorForm()   // clear senior fields
+              setResult(null)
+            }}>
+              Fresher
+            </button>
+
+            <button onClick={() => {
+              setMode("senior")
+              resetFresherForm()  // clear fresher fields
+            }}>
+              Senior
+            </button>
           </div>
 
           {mode === "fresher" && (
             <form onSubmit={handleSubmit}>
-              <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
-              <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
-              <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
+              <input className="input" name="dsa" value={form.dsa} placeholder="DSA solved" onChange={handleChange} />
+              <input className="input" name="projects" value={form.projects} placeholder="Projects" onChange={handleChange} />
+              <input className="input" name="mock" value={form.mock} placeholder="Mock interviews" onChange={handleChange} />
 
               <button className="button" type="submit">Analyze</button>
             </form>
@@ -154,12 +196,12 @@ function App() {
 
           {mode === "senior" && (
             <form onSubmit={handleSeniorSubmit}>
-              <input className="input" name="company" placeholder="Company" onChange={handleChange} />
-              <input className="input" name="months" placeholder="Months of preparation" onChange={handleChange} />
-              <input className="input" name="dsa" placeholder="DSA solved" onChange={handleChange} />
-              <input className="input" name="projects" placeholder="Projects" onChange={handleChange} />
-              <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
-              <input className="input" name="tips" placeholder="Tips" onChange={handleChange} />
+              <input className="input" name="company" value={form.company} placeholder="Company" onChange={handleChange} />
+              <input className="input" name="months" value={form.months} placeholder="Months of preparation" onChange={handleChange} />
+              <input className="input" name="dsa" value={form.dsa} placeholder="DSA solved" onChange={handleChange} />
+              <input className="input" name="projects" value={form.projects} placeholder="Projects" onChange={handleChange} />
+              <input className="input" name="mock" value={form.mock} placeholder="Mock interviews" onChange={handleChange} />
+              <input className="input" name="tips" value={form.tips} placeholder="Tips" onChange={handleChange} />
 
               <button className="button" type="submit">
                 {editId ? "Update Experience" : "Submit Experience"}
