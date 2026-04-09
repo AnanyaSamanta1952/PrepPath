@@ -10,6 +10,7 @@ function App() {
   const [companyFilter, setCompanyFilter] = useState("")
   const [seniors, setSeniors] = useState([])
   const [mode, setMode] = useState("fresher")
+  const [editId, setEditId] = useState(null)
   const [form, setForm] = useState({
     dsa: "",
     projects: "",
@@ -42,6 +43,8 @@ function App() {
   }
   const handleEdit = (s) => {
     setMode("senior")
+    setEditId(s._id)
+
     setForm({
       dsa: s.dsa_problems,
       projects: s.projects,
@@ -54,17 +57,35 @@ function App() {
   const handleSeniorSubmit = async (e) => {
     e.preventDefault()
 
-    await axios.post("http://localhost:5000/api/senior-plan", {
-      user_id: "507f1f77bcf86cd799439011",
-      company: form.company,
-      months_of_preparation: Number(form.months),
-      dsa_problems: Number(form.dsa),
-      projects: Number(form.projects),
-      mock_interviews: Number(form.mock),
-      tips: form.tips
-    })
+    if (editId) {
+      // UPDATE
+      await axios.put(`http://localhost:5000/api/senior-plan/${editId}`, {
+        company: form.company,
+        months_of_preparation: Number(form.months),
+        dsa_problems: Number(form.dsa),
+        projects: Number(form.projects),
+        mock_interviews: Number(form.mock),
+        tips: form.tips
+      })
 
-    alert("Senior data added!")
+      alert("Updated successfully!")
+    } else {
+      // CREATE
+      await axios.post("http://localhost:5000/api/senior-plan", {
+        user_id: "507f1f77bcf86cd799439011",
+        company: form.company,
+        months_of_preparation: Number(form.months),
+        dsa_problems: Number(form.dsa),
+        projects: Number(form.projects),
+        mock_interviews: Number(form.mock),
+        tips: form.tips
+      })
+
+      alert("Senior data added!")
+    }
+
+    setEditId(null)
+    fetchSeniors()
   }
 
   useEffect(() => {
@@ -108,7 +129,9 @@ function App() {
               <input className="input" name="mock" placeholder="Mock interviews" onChange={handleChange} />
               <input className="input" name="tips" placeholder="Tips" onChange={handleChange} />
 
-              <button className="button" type="submit">Submit Experience</button>
+              <button className="button" type="submit">
+                {editId ? "Update Experience" : "Submit Experience"}
+              </button>
             </form>
           )}
 
