@@ -50,6 +50,8 @@ function App() {
     dsa: "",
     projects: "",
     mock: "",
+    internships: "",
+    hackathons: "",
     company: "",
     months: "",
     tips: ""
@@ -62,7 +64,9 @@ function App() {
       ...prev,
       dsa: "",
       projects: "",
-      mock: ""
+      mock: "",
+      internships: "",
+      hackathons: ""
     }))
   }
 
@@ -74,6 +78,8 @@ function App() {
       dsa: "",
       projects: "",
       mock: "",
+      internships: "",  
+      hackathons: "",
       tips: ""
     }))
   }
@@ -92,6 +98,8 @@ function App() {
       dsa: Number(form.dsa),
       projects: Number(form.projects),
       mock: Number(form.mock),
+      internships: Number(form.internships),
+      hackathons: Number(form.hackathons)
     })
 
     setResult(res.data)
@@ -105,6 +113,8 @@ function App() {
       dsa: s.dsa_problems,
       projects: s.projects,
       mock: s.mock_interviews,
+      internships: s.internships || "",
+      hackathons: s.hackathons || "",
       company: s.company,
       months: s.months_of_preparation,
       tips: s.tips
@@ -133,6 +143,8 @@ function App() {
         dsa_problems: Number(form.dsa),
         projects: Number(form.projects),
         mock_interviews: Number(form.mock),
+        internships: Number(form.internships),
+        hackathons: Number(form.hackathons),
         tips: form.tips
       })
 
@@ -189,6 +201,8 @@ function App() {
               <input className="input" name="dsa" value={form.dsa} placeholder="DSA solved" onChange={handleChange} />
               <input className="input" name="projects" value={form.projects} placeholder="Projects" onChange={handleChange} />
               <input className="input" name="mock" value={form.mock} placeholder="Mock interviews" onChange={handleChange} />
+              <input className="input" name="internships" value={form.internships} placeholder="Internships" onChange={handleChange} />
+              <input className="input" name="hackathons" value={form.hackathons} placeholder="Hackathons participated" onChange={handleChange} />
 
               <button className="button" type="submit">Analyze</button>
             </form>
@@ -201,6 +215,8 @@ function App() {
               <input className="input" name="dsa" value={form.dsa} placeholder="DSA solved" onChange={handleChange} />
               <input className="input" name="projects" value={form.projects} placeholder="Projects" onChange={handleChange} />
               <input className="input" name="mock" value={form.mock} placeholder="Mock interviews" onChange={handleChange} />
+              <input className="input" name="internships" value={form.internships} placeholder="Internships" onChange={handleChange} />
+              <input className="input" name="hackathons" value={form.hackathons} placeholder="Hackathons participated" onChange={handleChange} />
               <input className="input" name="tips" value={form.tips} placeholder="Tips" onChange={handleChange} />
 
               <button className="button" type="submit">
@@ -251,6 +267,10 @@ function App() {
 
                 <p>
                   📊 {s.dsa_problems} DSA | {s.projects} Projects | {s.mock_interviews} Mocks
+                </p>
+
+                <p>
+                  🧠 {s.internships} Internships | 🏆 {s.hackathons} Hackathons
                 </p>
 
                 <p>💡 {s.tips}</p>
