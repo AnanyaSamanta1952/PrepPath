@@ -1,73 +1,47 @@
 const express = require("express")
 const router = express.Router()
+const axios = require("axios")
 
 const SeniorPlan = require("../models/SeniorPlan")
 
-// AI Comparison API
+// AI ML API
 router.post("/analyze", async (req, res) => {
     try {
 
-        const { dsa, projects, mock } = req.body
+        const { dsa, projects, mock, internships, hackathons } = req.body
 
-        // Get all senior plans
-        const seniors = await SeniorPlan.find()
-
-        if (seniors.length === 0) {
-            return res.json({ message: "No senior data available" })
-        }
-
-        // Calculate averages
-        let totalDSA = 0
-        let totalProjects = 0
-        let totalMock = 0
-
-        seniors.forEach(s => {
-            totalDSA += s.dsa_problems || 0
-            totalProjects += s.projects || 0
-            totalMock += s.mock_interviews || 0
+        // 🔥 Call Python ML API
+        const response = await axios.post("http://localhost:5001/predict", {
+            dsa,
+            projects,
+            mock,
+            internships,
+            hackathons,
+            hours: 0
         })
 
-        const count = seniors.length
+        const { prediction, probability } = response.data
 
-        const avgDSA = totalDSA / count
-        const avgProjects = totalProjects / count
-        const avgMock = totalMock / count
-
-        console.log("AVG VALUES:", {
-            avgDSA,
-            avgProjects,
-            avgMock,
-        })
-
-        if (avgDSA === 0 || avgProjects === 0 || avgMock === 0) {
-            return res.json({
-                message: "Not enough valid senior data"
-            })
-        }
-
-        // Calculate score
-        const safeDivide = (a, b) => (b === 0 ? 0 : a / b)
-
-        const score = (
-            safeDivide(dsa, avgDSA) +
-            safeDivide(projects, avgProjects) +
-            safeDivide(mock, avgMock) 
-        ) / 3 * 100
-
-        // Suggestions
+        // Suggestions (keep this logic)
         let suggestions = []
 
-        if (dsa < avgDSA) suggestions.push("Increase DSA practice")
-        if (projects < avgProjects) suggestions.push("Build more projects")
-        if (mock < avgMock) suggestions.push("Start mock interviews")
+        if (dsa < 300) suggestions.push("Increase DSA practice")
+        if (projects < 2) suggestions.push("Build more projects")
+        if (mock < 5) suggestions.push("Start mock interviews")
+        if (internships < 1) suggestions.push("Try to get internship")
+        if (hackathons < 1) suggestions.push("Participate in hackathons")
 
         res.json({
-            score: Math.round(score),
+            score: Math.round(probability * 100),
+            prediction: prediction === 1
+                ? "Likely to be placed"
+                : "Needs improvement",
             suggestions
         })
 
     } catch (error) {
-        res.status(500).json({ error: error.message })
+        console.log("ERROR:", error.message)
+        res.status(500).json({ error: "ML server error" })
     }
 })
 
