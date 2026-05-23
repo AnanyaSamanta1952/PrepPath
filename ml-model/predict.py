@@ -12,14 +12,14 @@ def predict():
         data = request.json
         print("DATA RECEIVED:", data)
 
-        features = pd.DataFrame([[
-            float(data.get("dsa", 0)),
-            float(data.get("projects", 0)),
-            float(data.get("mock", 0)),
-            float(data.get("hackathons", 0)),
-            float(data.get("internships", 0)),
-            float(data.get("hours", 0))
-        ]])
+        features = pd.DataFrame([{
+            "coding_skill_score": float(data.get("dsa", 0)),
+            "projects_count": float(data.get("projects", 0)),
+            "mock_interview_score": float(data.get("mock", 0)),
+            "hackathons_participated": float(data.get("hackathons", 0)),
+            "internships_count": float(data.get("internships", 0)),
+            "study_hours_per_day": float(data.get("hours", 0))
+        }])
 
         prediction = model.predict(features)[0]
         probability = model.predict_proba(features)[0][1]
