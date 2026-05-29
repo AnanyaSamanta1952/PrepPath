@@ -47,13 +47,12 @@ function App() {
   const [mode, setMode] = useState("fresher")
   const [editId, setEditId] = useState(null)
   const [form, setForm] = useState({
-    dsa: "",
-    projects: "",
-    mock: "",
-    internships: "",
-    hackathons: "",
     company: "",
-    months: "",
+    preparationJourney: "",
+    dsaExperience: "",
+    interviewExperience: "",
+    projectExperience: "",
+    mockExperience: "",
     tips: ""
   })
 
@@ -64,9 +63,7 @@ function App() {
       ...prev,
       dsa: "",
       projects: "",
-      mock: "",
-      internships: "",
-      hackathons: ""
+      mock: ""
     }))
   }
 
@@ -74,12 +71,11 @@ function App() {
     setForm((prev) => ({
       ...prev,
       company: "",
-      months: "",
-      dsa: "",
-      projects: "",
-      mock: "",
-      internships: "",  
-      hackathons: "",
+      preparationJourney: "",
+      dsaExperience: "",
+      interviewExperience: "",
+      projectExperience: "",
+      mockExperience: "",
       tips: ""
     }))
   }
@@ -110,14 +106,13 @@ function App() {
     setEditId(s._id)
 
     setForm({
-      dsa: s.dsa_problems,
-      projects: s.projects,
-      mock: s.mock_interviews,
-      internships: s.internships || "",
-      hackathons: s.hackathons || "",
-      company: s.company,
-      months: s.months_of_preparation,
-      tips: s.tips
+      company: s.company || "",
+      preparationJourney: s.preparationJourney || "",
+      dsaExperience: s.dsaExperience || "",
+      interviewExperience: s.interviewExperience || "",
+      projectExperience: s.projectExperience || "",
+      mockExperience: s.mockExperience || "",
+      tips: s.tips || ""
     })
   }
   const handleSeniorSubmit = async (e) => {
@@ -127,24 +122,23 @@ function App() {
       // UPDATE
       await axios.put(`http://localhost:5000/api/senior-plan/${editId}`, {
         company: form.company,
-        months_of_preparation: Number(form.months),
-        dsa_problems: Number(form.dsa),
-        projects: Number(form.projects),
-        mock_interviews: Number(form.mock),
+        preparationJourney: form.preparationJourney,
+        dsaExperience: form.dsaExperience,
+        interviewExperience: form.interviewExperience,
+        projectExperience: form.projectExperience,
+        mockExperience: form.mockExperience,
         tips: form.tips
       })
 
     } else {
       // CREATE
       await axios.post("http://localhost:5000/api/senior-plan", {
-        user_id: "507f1f77bcf86cd799439011",
         company: form.company,
-        months_of_preparation: Number(form.months),
-        dsa_problems: Number(form.dsa),
-        projects: Number(form.projects),
-        mock_interviews: Number(form.mock),
-        internships: Number(form.internships),
-        hackathons: Number(form.hackathons),
+        preparationJourney: form.preparationJourney,
+        dsaExperience: form.dsaExperience,
+        interviewExperience: form.interviewExperience,
+        projectExperience: form.projectExperience,
+        mockExperience: form.mockExperience,
         tips: form.tips
       })
 
@@ -178,6 +172,9 @@ function App() {
       <div className="left">
         <div className="card">
           <h1 className="title">PrepPath</h1>
+          <p className="subtitle">
+            Learn from real placement journeys and track your preparation.
+          </p>
 
           <div className="toggle">
             <button onClick={() => {
@@ -210,18 +207,67 @@ function App() {
 
           {mode === "senior" && (
             <form onSubmit={handleSeniorSubmit}>
-              <input className="input" name="company" value={form.company} placeholder="Company" onChange={handleChange} />
-              <input className="input" name="months" value={form.months} placeholder="Months of preparation" onChange={handleChange} />
-              <input className="input" name="dsa" value={form.dsa} placeholder="DSA solved" onChange={handleChange} />
-              <input className="input" name="projects" value={form.projects} placeholder="Projects" onChange={handleChange} />
-              <input className="input" name="mock" value={form.mock} placeholder="Mock interviews" onChange={handleChange} />
-              <input className="input" name="internships" value={form.internships} placeholder="Internships" onChange={handleChange} />
-              <input className="input" name="hackathons" value={form.hackathons} placeholder="Hackathons participated" onChange={handleChange} />
-              <input className="input" name="tips" value={form.tips} placeholder="Tips" onChange={handleChange} />
+
+              <input
+                className="input"
+                name="company"
+                value={form.company}
+                placeholder="Company"
+                onChange={handleChange}
+              />
+
+              <textarea
+                className="textarea"
+                name="preparationJourney"
+                value={form.preparationJourney}
+                placeholder="How did you prepare? DSA, timeline, resources etc."
+                onChange={handleChange}
+              />
+
+              <textarea
+                className="textarea"
+                name="dsaExperience"
+                value={form.dsaExperience}
+                placeholder="How many DSA questions did you solve? Which topics were important?"
+                onChange={handleChange}
+              />
+
+              <textarea
+                className="textarea"
+                name="interviewExperience"
+                value={form.interviewExperience}
+                placeholder="How were the interview rounds? What questions were asked?"
+                onChange={handleChange}
+              />
+
+              <textarea
+                className="textarea"
+                name="projectExperience"
+                value={form.projectExperience}
+                placeholder="What projects did you build?"
+                onChange={handleChange}
+              />
+
+              <textarea
+                className="textarea"
+                name="mockExperience"
+                value={form.mockExperience}
+                placeholder="Mock interviews, contests, hackathons, internships etc."
+                onChange={handleChange}
+              />
+
+              <textarea
+                className="textarea"
+                name="tips"
+                value={form.tips}
+                placeholder="Advice for juniors"
+                onChange={handleChange}
+              />
 
               <button className="button" type="submit">
-                {editId ? "Update Experience" : "Submit Experience"}
+                {editId ? "Update Experience" : "Share Experience"}
               </button>
+
             </form>
           )}
 
@@ -263,28 +309,65 @@ function App() {
             )
             .map((s, i) => (
               <div key={i} className="experience-card">
-                <h3>🏢 {s.company}</h3>
 
-                <p>
-                  📊 {s.dsa_problems} DSA | {s.projects} Projects | {s.mock_interviews} Mocks
-                </p>
+                <div className="card-header">
+                  <div>
+                    <h3 className="company-name">{s.company}</h3>
+                    <p className="posted-text">Shared Placement Experience</p>
+                  </div>
 
-                <p>
-                  🧠 {s.internships} Internships | 🏆 {s.hackathons} Hackathons
-                </p>
-
-                <p>💡 {s.tips}</p>
-                <div className="actions">
-                  <button onClick={() => handleEdit(s)}>Edit</button>
-                  <button onClick={() => handleDelete(s._id)}>Delete</button>
+                  <span className="experience-badge">
+                    Experience
+                  </span>
                 </div>
+
+                <div className="section">
+                  <h4>Preparation Journey</h4>
+                  <p>{s.preparationJourney}</p>
+                </div>
+
+                <div className="section">
+                  <h4>DSA Preparation</h4>
+                  <p>{s.dsaExperience}</p>
+                </div>
+
+                <div className="section">
+                  <h4>Interview Rounds</h4>
+                  <p>{s.interviewExperience}</p>
+                </div>
+
+                <div className="section">
+                  <h4>Projects Built</h4>
+                  <p>{s.projectExperience}</p>
+                </div>
+
+                <div className="section">
+                  <h4>Mocks / Internships / Hackathons</h4>
+                  <p>{s.mockExperience}</p>
+                </div>
+
+                <div className="tips-box">
+                  <h4>Advice for Juniors</h4>
+                  <p>{s.tips}</p>
+                </div>
+
+                <div className="actions">
+                  <button className="edit-btn" onClick={() => handleEdit(s)}>
+                    Edit
+                  </button>
+
+                  <button className="delete-btn" onClick={() => handleDelete(s._id)}>
+                    Delete
+                  </button>
+                </div>
+
               </div>
             ))}
         </div>
 
       </div>
 
-    </div>
+    </div >
   )
 }
 

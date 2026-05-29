@@ -1,0 +1,302 @@
+student_id,cgpa,internships,projects,certifications,coding_score,aptitude_score,communication_score,logical_reasoning_score,github_repos,mock_interview_score,attendance_percentage,backlogs,placement_status,salary_package_lpa,company,article_url
+1,8.75,3,5,7,60,69,72,86,18,89,76.64,0,Placed,36.16,American Express,https://www.geeksforgeeks.org/interview-experiences/american-express-interview-experience-for-graduate-engineer-trainee/
+2,6.77,0,6,2,83,55,72,93,5,75,93.48,0,Not Placed,0.0,IBM,https://www.geeksforgeeks.org/interview-experiences/ibm-interview-experience-software-engineer-full-time-on-campus-2024/
+3,6.22,3,1,0,48,78,65,75,1,88,85.12,0,Not Placed,0.0,Artee Flow Controls,https://www.geeksforgeeks.org/interview-experiences/artee-flow-controls-interview-experience-on-campus/
+4,8.43,0,1,0,65,83,63,79,7,53,76.54,1,Placed,37.05,Unknown,https://www.geeksforgeeks.org/interview-experiences/aqeeq-technologies-internship-interview-experience-on-campus/
+5,7.15,1,2,4,46,46,73,81,6,96,74.9,1,Placed,23.44,SAP Labs,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-summer-internship-for-third-year-students/
+6,6.77,1,4,5,93,98,52,63,2,100,88.08,1,Not Placed,0.0,United Airlines,https://www.geeksforgeeks.org/interview-experiences/united-airlines-interview-experience-for-software-developer-on-campus-2023/
+7,7.26,2,5,8,41,77,92,94,15,70,85.2,0,Not Placed,0.0,Consultadd Services,https://www.geeksforgeeks.org/interview-experiences/consultadd-services-interview-experience-associate-software-engineer/
+8,9.56,3,2,2,99,100,69,79,12,98,71.78,2,Placed,12.51,Herald Logic,https://www.geeksforgeeks.org/interview-experiences/herald-logic-interview-experience-on-campus-batch-2025/
+9,7.6,4,4,7,43,70,95,41,11,77,83.54,2,Not Placed,0.0,Coforge,https://www.geeksforgeeks.org/interview-experiences/coforge-interview-experience-on-campus-software-developer-role-2024/
+10,7.73,2,5,0,69,68,94,79,18,90,66.31,0,Not Placed,0.0,AMI (American Megatrends International),https://www.geeksforgeeks.org/interview-experiences/ami-american-megatrends-international-interview-experience-for-system-software-on-campus/
+11,8.37,0,5,1,45,85,62,44,8,63,83.41,0,Not Placed,0.0,Zomato,https://www.geeksforgeeks.org/interview-experiences/zomato-interview-experience-sde/
+12,9.69,0,3,8,57,53,94,56,0,68,96.14,2,Placed,5.84,Zomato x Blinkit,https://www.geeksforgeeks.org/interview-experiences/zomato-x-blinkit-interview-experience-for-sde-i-on-campus-2024/
+13,7.28,4,6,6,89,89,90,58,3,52,84.92,0,Placed,44.71,ZS Associates,https://www.geeksforgeeks.org/interview-experiences/zs-associates-interview-experience-btsa-on-campus-2024/
+14,8.11,3,4,7,71,55,42,66,2,41,87.35,2,Not Placed,0.0,ACI Worldwide,https://www.geeksforgeeks.org/interview-experiences/aci-worldwide-interview-experience-associate-software-engineer-full-time-on-campus/
+15,9.12,2,5,3,72,43,79,71,7,53,70.29,1,Placed,10.05,Sap Labs,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-for-associate-developer-intern-on-campus/
+16,7.09,1,4,6,61,73,46,44,18,50,87.55,1,Placed,14.8,Hexaware,https://www.geeksforgeeks.org/interview-experiences/hexaware-interview-experience-for-pget-on-campus-2024-2/
+17,8.31,2,6,3,58,69,64,59,7,64,70.59,1,Not Placed,0.0,Bajaj Finserv Health ltd.,https://www.geeksforgeeks.org/interview-experiences/bajaj-finserv-health-ltd-interview-experience-for-full-stack-developer-on-campus/
+18,9.41,4,6,0,79,72,85,44,17,56,67.05,2,Placed,21.98,Smart Cube,https://www.geeksforgeeks.org/interview-experiences/smart-cube-interview-experience-for-data-analyst-on-campus/
+19,6.34,1,6,3,88,94,71,93,6,67,66.78,0,Not Placed,0.0,TCS Prime,https://www.geeksforgeeks.org/interview-experiences/tcs-prime-interview-experience-2024-campus-placement/
+20,7.37,3,4,4,52,93,92,48,17,83,78.33,0,Placed,41.86,Sprinklr,https://www.geeksforgeeks.org/interview-experiences/sprinklr-interview-experience-for-sde-fte-on-campus/
+21,6.21,1,4,5,70,78,46,66,20,78,95.42,0,Placed,32.45,Okta,https://www.geeksforgeeks.org/interview-experiences/okta-interview-experience-for-sde-full-time-on-campus-2024/
+22,8.17,0,1,2,64,41,58,76,15,81,74.61,1,Not Placed,0.0,ZOHO,https://www.geeksforgeeks.org/interview-experiences/zoho-interview-experience-on-campus-1/
+23,7.36,2,4,1,60,93,51,60,3,89,65.07,0,Placed,12.7,London Stock Exchange Group (LSEG),https://www.geeksforgeeks.org/interview-experiences/london-stock-exchange-group-lseg-interview-experience-full-time/
+24,6.35,1,5,7,87,70,86,75,8,92,93.8,1,Not Placed,0.0,FICO,https://www.geeksforgeeks.org/interview-experiences/fico-interview-experience-for-software-engineer-developer-on-campus/
+25,8.27,2,6,4,97,59,64,42,20,44,85.5,0,Placed,34.83,Bain & Company (BCN),https://www.geeksforgeeks.org/interview-experiences/bain-company-bcn-interview-experience-on-campus-2024/
+26,7.27,3,3,3,42,63,54,52,14,56,89.96,0,Not Placed,0.0,Informatica,https://www.geeksforgeeks.org/interview-experiences/informatica-interview-experience-apprenticeship-on-campus-2024/
+27,6.25,2,1,3,48,96,83,68,4,67,68.32,1,Placed,44.21,Verizon,https://www.geeksforgeeks.org/interview-experiences/verizon-interview-experience-on-campus/
+28,6.45,1,5,4,75,51,69,73,13,45,68.75,0,Placed,32.13,TCS NQT,https://www.geeksforgeeks.org/interview-experiences/tcs-nqt-interview-experience-for-tcs-prime-on-campus/
+29,6.8,1,2,3,91,59,49,52,10,86,73.52,0,Not Placed,0.0,BlackRock,https://www.geeksforgeeks.org/interview-experiences/blackrock-interview-experience-for-sde-on-campus-2024/
+30,9.57,1,6,2,48,77,76,48,8,56,92.17,2,Placed,44.75,UKG,https://www.geeksforgeeks.org/interview-experiences/ukg-interview-experience-sde-on-campus/
+31,8.66,2,6,7,44,57,82,74,7,53,74.02,1,Not Placed,0.0,Western Union,https://www.geeksforgeeks.org/interview-experiences/western-union-interview-experience-on-campus-2024/
+32,8.41,3,6,8,57,96,89,88,7,100,91.95,2,Placed,42.94,Amadeus Labs,https://www.geeksforgeeks.org/interview-experiences/amadeus-labs-interview-experience-on-campus-2025-batch-1/
+33,8.99,0,5,3,65,51,87,89,13,84,71.61,2,Not Placed,0.0,KPIT,https://www.geeksforgeeks.org/interview-experiences/kpit-interview-experience-on-campus-2/
+34,8.16,1,5,4,41,83,54,54,12,40,88.34,1,Placed,40.77,Unknown,https://www.geeksforgeeks.org/interview-experiences/mindfire-solutions-experience/
+35,6.67,0,2,8,95,76,100,45,2,47,65.28,2,Placed,37.04,Osmosys,https://www.geeksforgeeks.org/interview-experiences/osmosys-interview-experience/
+36,6.84,0,5,4,67,49,40,76,17,81,77.34,0,Placed,42.84,Onsurity,https://www.geeksforgeeks.org/interview-experiences/onsurity-interview-experience/
+37,8.63,0,5,5,42,52,75,74,10,70,70.52,0,Placed,7.21,Dassault Systemes,https://www.geeksforgeeks.org/interview-experiences/dassault-systemes-interview-experience-on-campus/
+38,7.36,4,2,6,83,43,65,66,11,90,85.03,0,Placed,17.85,Google,https://www.geeksforgeeks.org/interview-experiences/google-interview-experience-application-engineer-intern-inter-ppo-oncampus/
+39,7.19,1,5,7,76,40,99,58,13,98,68.92,2,Placed,8.05,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-1/
+40,8.9,2,3,5,98,61,89,52,4,92,96.21,2,Placed,16.61,Gap Inc,https://www.geeksforgeeks.org/interview-experiences/gap-inc-interview-experience-for-software-engineer-on-campus/
+41,8.44,3,4,4,96,66,55,52,18,50,93.98,1,Placed,41.49,Synergies Castings Limited,https://www.geeksforgeeks.org/interview-experiences/synergies-castings-limited-interview-experience-industrial-training-6months-on-campus/
+42,6.54,0,1,5,66,65,80,64,8,48,65.31,0,Placed,20.95,Globallogic - Hitachi,https://www.geeksforgeeks.org/interview-experiences/globallogic-hitachi-interview-experience-on-campus/
+43,6.7,2,6,5,41,75,60,44,10,88,86.62,1,Placed,30.42,Caterpillar Inc.,https://www.geeksforgeeks.org/interview-experiences/caterpillar-inc-interview-experience-on-campus-2024-fte-intern/
+44,8.7,4,4,4,94,67,57,89,18,61,78.46,2,Placed,21.14,Osmosys,https://www.geeksforgeeks.org/interview-experiences/osmosys-interview-experience-on-campus/
+45,6.82,2,1,5,71,50,81,53,9,52,94.33,2,Placed,17.88,Paltech,https://www.geeksforgeeks.org/interview-experiences/paltech-interview-experience-2024-software-engineer-on-campus/
+46,7.91,1,1,1,52,51,41,100,0,98,74.97,1,Placed,31.66,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-2024-1/
+47,7.24,1,2,8,75,59,94,43,20,91,78.1,2,Placed,21.95,Pando.ai,https://www.geeksforgeeks.org/interview-experiences/pandoai-interview-experience-on-campus/
+48,7.0,0,1,0,58,48,66,65,6,70,78.51,1,Placed,14.03,Cedcoss Technologies,https://www.geeksforgeeks.org/interview-experiences/cedcoss-technologies-interview-experience-on-campus/
+49,8.13,0,2,2,99,40,74,71,8,47,85.3,0,Placed,22.4,S&P Global,https://www.geeksforgeeks.org/interview-experiences/sp-global-interview-experience-on-campus-2/
+50,6.85,0,3,0,70,79,47,61,0,93,89.47,2,Not Placed,0.0,Phonepe,https://www.geeksforgeeks.org/interview-experiences/phonepe-interview-experience-on-campus-1/
+51,6.17,4,1,2,42,79,63,60,1,73,78.56,1,Not Placed,0.0,Sasken Technology,https://www.geeksforgeeks.org/interview-experiences/sasken-technology-interview-experience-for-associate-software-engineer-on-campus-2024/
+52,6.55,1,1,6,97,53,85,46,15,86,85.32,2,Placed,30.83,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-on-campus-15/
+53,8.64,3,1,7,46,91,92,48,17,87,71.57,1,Placed,9.32,Zeta,https://www.geeksforgeeks.org/interview-experiences/zeta-interview-experience-as-a-sdet-intern/
+54,6.78,4,4,2,52,52,71,70,7,93,79.41,1,Placed,42.0,NICE Systems,https://www.geeksforgeeks.org/interview-experiences/nice-systems-interview-experience-on-campus-2024-1/
+55,7.46,1,5,2,58,93,92,72,18,75,71.69,1,Placed,39.09,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-2024-application-developer/
+56,7.48,2,5,7,41,77,73,81,1,59,69.03,2,Placed,37.62,Okta,https://www.geeksforgeeks.org/interview-experiences/okta-interview-experience-software-engineer-role-on-campus/
+57,8.64,0,2,4,72,55,61,88,17,95,82.8,0,Not Placed,0.0,Broadridge,https://www.geeksforgeeks.org/interview-experiences/broadridge-interview-experience-on-campus/
+58,8.23,4,2,8,87,75,48,76,14,54,79.54,1,Placed,42.27,Siemens-EDA,https://www.geeksforgeeks.org/interview-experiences/siemens-eda-interview-experience-6-month-intern-on-campus/
+59,7.07,4,3,1,97,56,81,57,10,61,87.98,1,Placed,36.88,Unthinkable Solutions,https://www.geeksforgeeks.org/interview-experiences/unthinkable-solutions-interview-experience-on-campus-3/
+60,9.75,1,2,3,87,70,81,98,18,92,92.16,1,Placed,9.06,Factset,https://www.geeksforgeeks.org/interview-experiences/factset-interview-experience-on-campus-5/
+61,9.57,3,4,8,93,49,73,69,0,91,79.31,1,Placed,43.67,Yamaha Motors Solution India Pvt. Ltd.,https://www.geeksforgeeks.org/interview-experiences/yamaha-motors-solution-india-pvt-ltd-interview-experience-on-campus-1/
+62,7.31,1,5,3,56,52,45,100,11,71,83.1,0,Placed,29.67,EY GDS,https://www.geeksforgeeks.org/interview-experiences/ey-gds-interview-experience-tech-consultant-full-time-on-campus/
+63,7.25,2,5,8,66,78,68,49,18,49,70.81,2,Placed,30.16,Hexaware,https://www.geeksforgeeks.org/interview-experiences/hexaware-interview-experience-on-campus-spget2023-2024/
+64,9.07,4,1,4,60,75,89,51,13,76,91.18,0,Placed,15.71,Bank Of America,https://www.geeksforgeeks.org/interview-experiences/bank-of-america-interview-experience-2024-on-campus/
+65,6.37,0,1,8,89,47,98,75,18,85,65.37,1,Placed,15.58,Pubmatic,https://www.geeksforgeeks.org/interview-experiences/pubmatic-interview-experience-on-campus/
+66,6.37,0,6,1,99,47,90,100,16,62,91.03,0,Placed,44.61,MathCo,https://www.geeksforgeeks.org/interview-experiences/mathco-interview-experience-analyst-trainee/
+67,9.45,3,3,1,56,58,100,72,0,72,97.65,0,Not Placed,0.0,Global Logic,https://www.geeksforgeeks.org/interview-experiences/global-logic-interview-experience-trainee-se-on-campus-/
+68,8.43,1,5,7,84,42,53,72,6,69,72.54,0,Placed,6.0,GlobalLogic,https://www.geeksforgeeks.org/interview-experiences/globallogic-interview-experience-on-campus/
+69,8.29,3,5,1,97,63,100,51,1,48,84.98,2,Placed,38.89,Adobe,https://www.geeksforgeeks.org/interview-experiences/adobe-interview-experience-product-intern-on-campus-2024/
+70,6.83,1,4,5,75,99,87,93,4,87,96.02,2,Placed,34.43,Contentstack,https://www.geeksforgeeks.org/interview-experiences/contentstack-interview-experience/
+71,6.31,4,1,4,63,92,89,69,15,76,85.47,2,Placed,32.98,Genpact,https://www.geeksforgeeks.org/interview-experiences/genpact-interview-experience-for-software-engineer-on-campus/
+72,7.65,3,5,6,54,60,69,78,17,74,91.6,1,Placed,21.15,Jones Lang LaSalle (JLL),https://www.geeksforgeeks.org/interview-experiences/jones-lang-lasalle-jll-interview-experience-for-trainee-software-engineer-on-campus/
+73,9.57,1,1,5,57,79,51,82,11,62,65.81,0,Placed,19.37,Meesho,https://www.geeksforgeeks.org/interview-experiences/meesho-interview-experience-on-campus-sde-1/
+74,7.04,2,5,5,45,73,72,44,13,79,65.19,2,Placed,12.21,Pratt and Whitney,https://www.geeksforgeeks.org/interview-experiences/pratt-and-whitney-interview-experience/
+75,8.47,0,6,5,50,43,83,43,5,94,67.73,0,Not Placed,0.0,Seclore,https://www.geeksforgeeks.org/interview-experiences/seclore-interview-experience-on-campus/
+76,6.54,1,5,0,96,76,70,74,2,72,93.68,2,Placed,39.86,Texas Instruments,https://www.geeksforgeeks.org/interview-experiences/texas-instruments-interview-experience-on-campus-2/
+77,8.66,0,4,5,41,50,93,90,7,90,84.51,2,Placed,18.84,TCS NQT,https://www.geeksforgeeks.org/interview-experiences/tcs-nqt-interview-experience-on-campus/
+78,9.45,1,1,5,100,82,99,75,9,77,82.34,0,Placed,7.43,Goldman Sachs,https://www.geeksforgeeks.org/interview-experiences/goldman-sachs-interview-experience-1/
+79,7.1,2,2,1,90,94,43,43,4,43,88.36,0,Placed,11.42,Unknown,https://www.geeksforgeeks.org/interview-experiences/amazon-interview-experiencesde-internship-on-campus/
+80,6.39,3,2,3,97,47,61,79,15,90,93.21,2,Placed,17.35,Couchbase | UI/UX Role | Full Time | On-Campus |,https://www.geeksforgeeks.org/interview-experiences/couchbase-ui-ux-role-full-time-on-campus-interview-experience/
+81,7.54,4,4,0,53,92,65,72,20,77,65.91,2,Placed,12.62,Argusoft,https://www.geeksforgeeks.org/interview-experiences/argusoft-interview-experience-1/
+82,7.82,3,2,0,76,78,49,88,9,69,97.36,2,Placed,16.96,Wells Fargo,https://www.geeksforgeeks.org/interview-experiences/wells-fargo-interview-experience-on-campus-august-2024/
+83,9.67,2,4,0,54,77,100,68,15,41,79.14,0,Not Placed,0.0,AlBright Labs,https://www.geeksforgeeks.org/interview-experiences/albright-labs-interview-experience-on-campus/
+84,7.02,3,5,0,51,75,72,88,17,56,76.64,2,Not Placed,0.0,Global Logic,https://www.geeksforgeeks.org/interview-experiences/global-logic-interview-experience-2025-batch-on-campus-ai-graduate-engineer-trainee/
+85,6.94,1,2,5,56,78,75,88,0,94,83.89,0,Not Placed,0.0,Uber,https://www.geeksforgeeks.org/interview-experiences/uber-interview-experience-for-sde-i-on-campus/
+86,8.76,0,3,1,70,71,90,70,6,76,76.83,0,Not Placed,0.0,GE Digital,https://www.geeksforgeeks.org/interview-experiences/ge-digital-interview-experience-for-software-engineering-specialist-on-campus-2/
+87,6.13,1,2,4,44,69,45,52,9,57,94.75,2,Placed,38.69,Maximl,https://www.geeksforgeeks.org/interview-experiences/maximl-interview-experience-sde-intern-frontend-on-campus/
+88,6.63,3,4,5,44,65,41,42,16,85,88.56,1,Not Placed,0.0,Toshiba,https://www.geeksforgeeks.org/interview-experiences/toshiba-interview-experience-1/
+89,8.95,3,5,4,42,62,66,58,3,59,66.28,2,Not Placed,0.0,PalTech,https://www.geeksforgeeks.org/interview-experiences/paltech-interview-experience/
+90,6.88,1,3,5,72,55,76,51,17,77,96.28,1,Placed,5.72,Tejas Networks,https://www.geeksforgeeks.org/interview-experiences/tejas-networks-interview-experience-on-campus-october-2024/
+91,9.29,4,4,3,61,47,53,43,3,50,87.01,0,Placed,39.57,Coditas,https://www.geeksforgeeks.org/interview-experiences/coditas-interview-experienceon-campus-2024-passout-batch/
+92,7.96,2,2,1,87,43,88,44,3,90,67.92,2,Placed,18.49,Trimble,https://www.geeksforgeeks.org/interview-experiences/trimble-interview-experience-on-campus-2024/
+93,6.05,3,3,3,97,59,66,47,9,74,82.22,2,Placed,7.6,Acuiti Labs,https://www.geeksforgeeks.org/interview-experiences/acuiti-labs-interview-experience-on-campus/
+94,9.23,4,3,6,52,85,82,80,11,58,89.73,0,Placed,36.76,PalTech,https://www.geeksforgeeks.org/interview-experiences/paltech-interview-experience-november-2024/
+95,7.0,4,2,6,98,71,49,56,5,74,80.38,2,Placed,31.71,CodingMart Technologies,https://www.geeksforgeeks.org/interview-experiences/codingmart-technologies-interview-experience-on-campus/
+96,9.2,1,2,4,56,81,43,99,10,69,80.98,2,Placed,14.14,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-on-campus-2024-1/
+97,9.41,2,2,6,94,44,45,48,20,73,84.3,1,Not Placed,0.0,Nvidia,https://www.geeksforgeeks.org/interview-experiences/nvidia-interview-experience-for-system-software-engineer-internshipon-campus/
+98,9.33,3,3,0,49,94,87,84,6,56,92.6,2,Placed,15.32,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-cgiu-sept-2024/
+99,6.55,0,6,4,88,96,44,42,0,83,93.33,1,Placed,17.39,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-ase-on-campus-2024-passout/
+100,9.17,3,6,1,59,76,65,94,9,40,66.79,0,Not Placed,0.0,Tech Mahindra,https://www.geeksforgeeks.org/interview-experiences/tech-mahindra-interview-experience-on-campus-6/
+101,8.59,3,2,7,96,80,95,93,4,66,77.89,1,Placed,14.48,Juspay On-Campus,https://www.geeksforgeeks.org/interview-experiences/juspay-on-campus-interview-experience-for-batch-2025/
+102,9.01,1,4,4,66,61,58,65,13,70,69.74,0,Not Placed,0.0,Amazon,https://www.geeksforgeeks.org/interview-experiences/amazon-interview-experience-on-campus-11/
+103,6.27,3,6,5,48,61,68,64,20,72,94.01,0,Not Placed,0.0,MathCo |,https://www.geeksforgeeks.org/interview-experiences/mathco-interview-experience-on-campus-analyst-role/
+104,8.24,4,3,0,75,72,58,50,3,78,72.15,2,Not Placed,0.0,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-associate-software-engineer-on-campus-3/
+105,7.67,3,3,4,65,44,63,52,10,49,97.51,1,Placed,12.15,Deloitte USI,https://www.geeksforgeeks.org/interview-experiences/deloitte-usi-interview-experience-for-analyst-role-full-time-on-campus/
+106,8.84,1,1,7,100,70,71,40,11,79,90.37,1,Placed,20.16,Omniscient Software Ltd,https://www.geeksforgeeks.org/interview-experiences/omniscient-software-ltd-interview-experience-on-campus-drive-software-engineer-intern-full-time/
+107,8.73,3,2,4,57,51,65,69,14,79,89.39,2,Placed,40.9,Deloitte USI,https://www.geeksforgeeks.org/interview-experiences/deloitte-usi-interview-experience-on-campus-deloitte-us-india-analyst-fte/
+108,7.62,0,4,0,48,86,81,87,1,95,77.68,2,Placed,12.81,Deutsche Bank,https://www.geeksforgeeks.org/interview-experiences/deutsche-bank-interview-experience-for-sde-on-campus-2/
+109,7.16,0,4,2,93,89,72,48,4,96,72.36,2,Placed,24.24,Meesho,https://www.geeksforgeeks.org/interview-experiences/meesho-interview-experience-on-campus-sde-1-1/
+110,6.5,3,2,5,57,95,68,55,18,65,66.32,1,Placed,23.99,BNY Mellon,https://www.geeksforgeeks.org/interview-experiences/bny-mellon-interview-experience-for-software-engineer-internship-on-campus2022/
+111,6.69,1,3,8,51,99,59,80,5,99,77.01,1,Placed,15.85,Yen Technologies,https://www.geeksforgeeks.org/interview-experiences/yen-technologies-interview-experience/
+112,8.69,0,5,8,47,65,63,63,5,93,67.65,1,Placed,10.83,NVIDIA Graphics,https://www.geeksforgeeks.org/interview-experiences/nvidia-graphics-interview-experience-tools-development-intern-role-on-campus/
+113,7.72,1,4,5,41,58,78,93,5,47,80.52,1,Not Placed,0.0,UBS,https://www.geeksforgeeks.org/interview-experiences/ubs-interview-experience-for-graduate-trainee-role-on-campus/
+114,8.29,0,5,6,43,71,72,40,0,46,69.08,2,Placed,8.16,Salesforce,https://www.geeksforgeeks.org/interview-experiences/salesforce-interview-experience-internship-on-campus/
+115,6.86,4,2,3,47,90,94,87,11,77,92.83,2,Placed,4.68,Renault Nissan Technology & Business Centre India (RNTBCI),https://www.geeksforgeeks.org/interview-experiences/renault-nissan-technology-business-centre-india-rntbci-interview-experience-on-campus/
+116,6.17,4,5,4,64,62,90,71,3,68,84.33,2,Placed,33.94,Nice Systems,https://www.geeksforgeeks.org/interview-experiences/nice-systems-interview-experience-on-campus-2024/
+117,8.41,3,6,7,61,97,85,72,0,58,69.05,0,Placed,42.24,Unknown,https://www.geeksforgeeks.org/interview-experiences/solugenix-interview-experience/
+118,8.41,0,6,3,95,93,48,96,14,40,84.92,1,Not Placed,0.0,JIO,https://www.geeksforgeeks.org/interview-experiences/jio-interview-experience-on-campus-2/
+119,6.07,4,4,0,73,92,60,52,3,79,95.82,0,Placed,41.15,Mindfire Solutions,https://www.geeksforgeeks.org/interview-experiences/mindfire-solutions-interview-experience-software-engineer-on-campus/
+120,6.83,1,4,7,74,52,98,64,16,51,86.74,2,Placed,17.22,Jellyfish Technologies,https://www.geeksforgeeks.org/interview-experiences/jellyfish-technologies-interview-experience-on-campus/
+121,7.64,0,1,7,93,99,53,77,19,57,84.78,0,Placed,11.06,SAP Labs,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-for-scholar-on-campus-2023-selected/
+122,8.0,4,4,8,56,73,79,63,20,60,72.83,0,Placed,44.95,Societe Generale,https://www.geeksforgeeks.org/interview-experiences/societe-generale-interview-experience-for-software-engineer-on-campus-1/
+123,6.0,3,3,8,100,85,63,43,19,80,76.28,2,Placed,30.79,SAP LABS,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-ixp-intern/
+124,9.47,3,2,2,75,83,61,49,5,60,76.98,0,Placed,37.87,D.E Shaw,https://www.geeksforgeeks.org/interview-experiences/de-shaw-interview-experience-for-technology-developer-intern-2025/
+125,6.09,4,5,2,43,84,57,98,10,72,67.91,0,Not Placed,0.0,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-intern-on-campus/
+126,9.32,2,2,4,69,45,47,41,16,59,82.68,2,Not Placed,0.0,EY,https://www.geeksforgeeks.org/interview-experiences/ey-interview-experience-campus-recruitment-cyber-security-specialist-full-time/
+127,8.89,2,1,1,79,75,89,52,7,46,88.83,0,Placed,31.75,PWC,https://www.geeksforgeeks.org/interview-experiences/pwc-interview-experience-oncampus/
+128,9.78,4,1,1,41,96,42,85,15,57,82.75,0,Placed,39.38,SAS R&D,https://www.geeksforgeeks.org/interview-experiences/sas-rd-interview-experience/
+129,8.18,3,5,1,69,98,50,58,11,73,93.44,2,Placed,14.32,Unknown,https://www.geeksforgeeks.org/tag/cognizant-interview-experience/
+130,9.26,1,2,4,79,91,84,76,18,40,78.8,1,Not Placed,0.0,Barclays,https://www.geeksforgeeks.org/interview-experiences/barclays-interview-experience-for-business-analyst-on-campus/
+131,7.93,3,3,2,71,70,92,90,11,86,81.37,2,Placed,7.87,BlackRock SDE,https://www.geeksforgeeks.org/interview-experiences/blackrock-sde-interview-experience-2024-vit-on-campus/
+132,7.76,0,1,2,66,80,89,47,2,74,79.57,0,Placed,43.2,Global Logic,https://www.geeksforgeeks.org/interview-experiences/global-logic-interview-experience-associate-software-engineeron-campus/
+133,6.19,4,3,6,87,46,69,61,17,47,93.1,0,Placed,12.83,Arista Networks,https://www.geeksforgeeks.org/interview-experiences/arista-networks-interview-experience-on-campus-for-internship/
+134,8.72,1,5,0,56,72,81,55,19,96,96.39,1,Not Placed,0.0,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-ase-2022-on-campus/
+135,7.26,0,6,8,87,95,49,94,0,70,71.65,1,Placed,13.67,GyanSys,https://www.geeksforgeeks.org/interview-experiences/gyansys-interview-experience-on-campus-2024/
+136,6.64,0,3,4,98,92,77,41,4,86,68.7,1,Placed,39.73,Genpact,https://www.geeksforgeeks.org/interview-experiences/genpact-interview-experience-on-campus/
+137,6.06,1,3,7,87,49,54,45,0,92,72.97,1,Not Placed,0.0,Groww,https://www.geeksforgeeks.org/interview-experiences/groww-interview-experience-for-swe-on-campus-2023/
+138,6.56,3,1,0,48,72,80,58,7,83,92.27,0,Placed,11.05,Samsung,https://www.geeksforgeeks.org/interview-experiences/samsung-interview-experience-for-sde-on-campus/
+139,6.72,2,1,6,85,54,70,67,8,47,82.39,0,Placed,23.06,Avaya,https://www.geeksforgeeks.org/interview-experiences/avaya-interview-experience-sde-on-campus/
+140,7.46,0,3,0,42,47,64,92,2,67,81.84,0,Placed,41.38,Newgen Software,https://www.geeksforgeeks.org/interview-experiences/newgen-software-interview-experience-2/
+141,9.1,2,5,7,78,73,66,82,8,73,97.83,2,Placed,34.63,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-application-developer-aug-2024/
+142,6.01,0,1,7,88,40,61,98,10,42,71.5,0,Not Placed,0.0,AthenaHealth,https://www.geeksforgeeks.org/interview-experiences/athenahealth-interview-experience-on-campus-1/
+143,9.01,4,5,5,44,69,66,88,20,41,66.61,2,Not Placed,0.0,MediaTek,https://www.geeksforgeeks.org/interview-experiences/mediatek-interview-experience-on-campus-2/
+144,7.29,1,6,7,43,71,50,89,19,90,68.78,2,Placed,9.47,Google,https://www.geeksforgeeks.org/interview-experiences/google-interview-experience-for-swe-on-campus-2024/
+145,8.07,3,4,5,70,97,96,80,14,88,70.16,1,Placed,9.66,People Tech Group Inc.,https://www.geeksforgeeks.org/interview-experiences/people-tech-group-inc-interview-experience-on-campus/
+146,7.02,2,3,2,85,86,80,58,9,67,86.99,0,Placed,24.92,Infineon,https://www.geeksforgeeks.org/interview-experiences/infineon-interview-experience-on-campus/
+147,6.7,1,5,1,84,97,67,70,12,64,74.83,2,Placed,28.69,SAP labs,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-scholar-sap-on-campus/
+148,9.41,1,4,1,57,44,79,78,6,52,74.82,0,Placed,6.92,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-ase-oncampus/
+149,6.52,1,3,3,76,66,95,100,18,57,94.15,0,Placed,34.81,IDFC First Bank,https://www.geeksforgeeks.org/interview-experiences/idfc-first-bank-interview-experience-for-application-engineer-on-campus-2024-vit-vellore/
+150,8.33,2,5,7,60,98,73,48,20,51,86.23,0,Placed,20.97,ION Group,https://www.geeksforgeeks.org/interview-experiences/ion-group-interview-experience-for-data-scientist-on-campus/
+151,8.64,4,5,8,53,52,66,46,2,72,73.53,2,Not Placed,0.0,Carelon GLobal Solutions,https://www.geeksforgeeks.org/interview-experiences/carelon-global-solutions-interview-experienceon-campus-associate-software-role/
+152,8.59,2,4,3,41,89,66,97,11,76,86.89,1,Placed,8.42,Mastercard,https://www.geeksforgeeks.org/interview-experiences/mastercard-interview-experience-for-sde-intern-on-campus/
+153,9.09,3,3,4,59,83,75,45,4,71,75.08,2,Not Placed,0.0,Google,https://www.geeksforgeeks.org/interview-experiences/google-interview-experience-on-campus/
+154,9.17,0,1,1,72,86,45,87,6,90,76.46,2,Not Placed,0.0,Unknown,https://www.geeksforgeeks.org/interview-experiences/schneider-electric-technical-interview-experience/
+155,7.32,3,5,7,94,87,79,100,0,46,71.09,1,Placed,17.9,Zscaler,https://www.geeksforgeeks.org/interview-experiences/zscaler-interview-experience-for-internship/
+156,9.47,2,1,4,53,82,67,52,4,55,79.61,0,Not Placed,0.0,ION Trading Private Limited,https://www.geeksforgeeks.org/interview-experiences/ion-trading-private-limited-interview-experience-oncampus-sde/
+157,7.79,0,2,5,72,70,79,75,10,44,96.89,1,Placed,38.93,PubMatic,https://www.geeksforgeeks.org/interview-experiences/pubmatic-interview-experience-on-campus-2/
+158,8.13,0,2,6,67,79,69,95,9,86,67.98,0,Placed,38.15,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-advanced-application-engineering-analyst-fte-oncampus/
+159,8.79,4,5,5,88,65,100,64,16,90,94.8,2,Placed,7.74,Mastercard,https://www.geeksforgeeks.org/interview-experiences/mastercard-interview-experience-sde-on-campus/
+160,8.2,3,2,5,100,76,73,56,13,82,85.58,2,Placed,6.21,rtCamp,https://www.geeksforgeeks.org/interview-experiences/rtcamp-interview-experience-for-software-engineer-trainee-on-campus/
+161,9.42,2,3,6,57,55,52,84,16,62,95.43,2,Not Placed,0.0,Unknown,https://www.geeksforgeeks.org/interview-experiences/cognizant-interview-experience-programmer-analyst-trainee-on-campus-hire/
+162,6.19,4,3,7,82,67,98,81,17,72,79.21,1,Not Placed,0.0,ARC Document Solutions,https://www.geeksforgeeks.org/interview-experiences/arc-document-solutions-interview-experience-for-python-dev-on-campus/
+163,9.67,1,5,5,96,62,54,85,11,70,92.7,0,Placed,29.0,London Stock Exchange Group (LSEG),https://www.geeksforgeeks.org/interview-experiences/london-stock-exchange-group-lseg-interview-experience-technology-graduate-program-full-time/
+164,6.96,0,3,5,73,68,66,41,9,76,86.5,1,Placed,40.04,Deloitte,https://www.geeksforgeeks.org/interview-experiences/deloitte-interview-experience-on-campus-placement-drive-2024-product-engineering-analyst-role/
+165,8.58,0,3,2,98,45,91,76,1,81,96.84,2,Not Placed,0.0,Grape-City,https://www.geeksforgeeks.org/interview-experiences/grape-city-interview-experience-on-campus-2024-25/
+166,8.56,0,2,5,67,55,88,82,3,86,85.17,2,Placed,35.49,rtCamp,https://www.geeksforgeeks.org/interview-experiences/rtcamp-interview-experience-web-engineers-php-on-campus-2023/
+167,8.65,4,4,3,98,44,67,96,12,96,75.19,2,Placed,43.17,Deloitte India,https://www.geeksforgeeks.org/interview-experiences/deloitte-india-interview-experience-on-campus-2024/
+168,6.8,0,3,4,96,71,92,92,17,61,96.09,0,Placed,26.27,AlgoSec,https://www.geeksforgeeks.org/interview-experiences/algosec-interview-experience-on-campus/
+169,6.47,2,6,7,99,90,79,56,13,90,89.96,0,Placed,14.27,Salesforce,https://www.geeksforgeeks.org/interview-experiences/salesforce-interview-experience-sde-intern-on-campus-2024/
+170,9.19,4,3,2,52,94,58,86,1,99,69.94,1,Not Placed,0.0,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-associate-software-engineer-on-campus/
+171,6.41,2,1,7,87,82,62,70,7,67,96.38,2,Placed,36.51,SAP Labs Summer,https://www.geeksforgeeks.org/interview-experiences/sap-labs-summer-interview-experience-ixp-intern-2024/
+172,7.21,4,1,0,95,63,51,76,13,76,79.19,2,Placed,32.0,Caterpillar,https://www.geeksforgeeks.org/interview-experiences/caterpillar-interview-experience-on-campus-2024-2/
+173,8.4,1,3,7,58,76,71,42,12,44,93.94,0,Placed,25.9,Quicko Infosoft,https://www.geeksforgeeks.org/interview-experiences/quicko-infosoft-interview-experience-on-campus-october-2023/
+174,6.18,3,1,7,86,64,87,69,3,58,65.18,1,Placed,22.9,Infineon Technologies,https://www.geeksforgeeks.org/interview-experiences/infineon-technologies-interview-experience-on-campus-2024/
+175,8.35,4,5,4,95,64,90,56,7,99,93.64,0,Placed,20.58,MAQ Software,https://www.geeksforgeeks.org/interview-experiences/maq-software-interview-experience-sde-1-on-campus/
+176,7.46,3,2,3,89,89,43,58,9,62,86.91,2,Placed,37.17,Tracelink,https://www.geeksforgeeks.org/interview-experiences/tracelink-interview-experience-on-campus-for-internship/
+177,6.59,3,3,7,81,76,61,83,11,94,83.14,2,Not Placed,0.0,Hewlett Packard Enterprise(HP),https://www.geeksforgeeks.org/interview-experiences/hewlett-packard-enterprisehp-interview-experience-internship/
+178,7.73,1,3,3,83,91,61,90,10,91,91.26,2,Not Placed,0.0,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-9/
+179,8.26,3,4,1,51,79,86,74,2,98,94.39,1,Placed,24.52,SAP Labs,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-on-campus-2/
+180,9.53,0,4,1,70,69,42,89,19,47,66.37,0,Placed,43.79,Deloitte,https://www.geeksforgeeks.org/interview-experiences/deloitte-interview-experience-for-technology-analyst-or-equivalentcyber-strategic-risk-on-campus-2024/
+181,6.23,3,4,6,83,50,99,87,17,65,87.73,1,Not Placed,0.0,McKinsey,https://www.geeksforgeeks.org/interview-experiences/mckinsey-interview-experience-on-campus-recruitment-2024-junior-software-developer-internship-full-time/
+182,8.55,4,3,0,59,76,87,71,11,90,79.88,2,Placed,43.41,Capgemini,https://www.geeksforgeeks.org/interview-experiences/capgemini-interview-experience-on-campus-24-25/
+183,6.71,0,3,7,81,43,54,51,16,47,91.58,0,Placed,29.14,Unknown,https://www.geeksforgeeks.org/interview-experiences/infosys-interiew-experience/
+184,9.49,4,4,2,54,96,75,64,9,76,84.18,0,Not Placed,0.0,Unknown,https://www.geeksforgeeks.org/interview-experiences/kla-internship-experience-for-sipon-campus/
+185,7.35,3,5,4,98,48,84,99,2,67,72.2,2,Not Placed,0.0,Deloitte USI,https://www.geeksforgeeks.org/interview-experiences/deloitte-usi-interview-experience-business-technology-analyst-on-campus/
+186,9.0,3,1,7,69,64,75,81,2,54,90.5,0,Placed,13.44,Zeus Learning,https://www.geeksforgeeks.org/interview-experiences/zeus-learning-interview-experience-for-software-developer-on-campus-2024/
+187,8.0,4,1,1,98,77,67,93,3,66,86.01,2,Placed,20.38,Siemens DISW,https://www.geeksforgeeks.org/interview-experiences/siemens-disw-interview-experience-on-campus-intern-drive/
+188,6.8,0,5,1,91,94,56,61,14,76,76.01,1,Placed,4.06,TATA Elxsi,https://www.geeksforgeeks.org/interview-experiences/tata-elxsi-interview-experience-on-campus-2024/
+189,9.45,2,1,8,87,92,87,60,19,52,75.16,1,Placed,36.28,InMobi,https://www.geeksforgeeks.org/interview-experiences/inmobi-interview-experience-2024-on-campus/
+190,7.2,1,6,8,48,73,44,62,18,55,66.54,1,Placed,31.3,Mastercard,https://www.geeksforgeeks.org/interview-experiences/mastercard-interview-experience-on-campus-1/
+191,9.48,3,2,1,97,62,84,78,16,49,83.65,0,Not Placed,0.0,Trianz,https://www.geeksforgeeks.org/interview-experiences/trianz-interview-experience-on-campus/
+192,8.41,2,4,7,55,97,68,71,16,77,88.34,1,Placed,34.75,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-on-campus-sep-2024-aeh/
+193,9.2,1,5,7,50,46,75,90,17,47,65.39,0,Placed,21.36,Acko Insurance Limited,https://www.geeksforgeeks.org/interview-experiences/acko-insurance-limited-interview-experience-for-sde-internship-july-dec-on-campus/
+194,7.46,4,6,0,79,43,40,42,17,63,96.2,0,Placed,6.69,Tally Solutions,https://www.geeksforgeeks.org/interview-experiences/tally-solutions-interview-experience-trainee-software-engineer/
+195,8.28,2,2,5,70,48,95,42,8,41,84.9,2,Placed,28.79,Amadeus Labs,https://www.geeksforgeeks.org/interview-experiences/amadeus-labs-interview-experience-on-campus-2025-batch/
+196,8.28,4,5,0,91,99,66,65,15,66,88.13,0,Placed,36.55,HCLTech,https://www.geeksforgeeks.org/interview-experiences/hcltech-interview-experience-ftp/
+197,6.43,0,1,0,77,81,75,56,3,65,88.43,0,Placed,30.99,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experienceon-campus-4/
+198,6.76,1,4,1,72,88,63,44,13,96,85.48,1,Placed,9.45,Systools Private Limited,https://www.geeksforgeeks.org/interview-experiences/systools-private-limited-interview-experience-on-campus/
+199,6.07,2,1,4,72,93,73,99,2,77,80.06,0,Placed,16.99,ZS associates,https://www.geeksforgeeks.org/interview-experiences/zs-associates-interview-experience-for-btsa-2023-on-campus/
+200,9.41,3,6,5,58,64,88,96,17,71,87.7,2,Placed,11.91,ICICI Bank,https://www.geeksforgeeks.org/interview-experiences/icici-bank-interview-experience-for-deputy-manager-ii-on-campus-2024-nit-patna/
+201,6.09,3,2,0,96,75,63,61,5,69,71.43,0,Placed,12.8,Wells Fargo,https://www.geeksforgeeks.org/interview-experiences/wells-fargo-interview-experience-2025-on-campus-full-time/
+202,6.18,2,1,3,97,95,45,69,7,61,93.49,2,Placed,7.51,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-for-associate-software-engineer-2023/
+203,9.28,2,4,4,67,64,51,40,14,96,73.4,0,Not Placed,0.0,Unknown,https://www.geeksforgeeks.org/category/experiences/interview-experiences/
+204,6.79,4,3,3,70,79,52,98,19,78,71.8,0,Placed,38.62,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-sde-2024/
+205,7.66,0,3,6,99,83,75,86,6,53,66.12,1,Placed,41.23,TCS Prime,https://www.geeksforgeeks.org/interview-experiences/tcs-prime-interview-experience-2024-off-campus/
+206,7.14,0,1,2,57,84,99,78,5,42,95.1,1,Not Placed,0.0,Quantiphi,https://www.geeksforgeeks.org/interview-experiences/quantiphi-interview-experience-campus-recruitment-drive/
+207,7.22,2,5,2,41,56,40,60,10,60,94.92,2,Placed,26.44,Barclays BGSC,https://www.geeksforgeeks.org/interview-experiences/barclays-bgsc-interview-experience/
+208,7.12,0,6,6,78,67,46,61,2,94,92.26,2,Placed,14.16,GE Healthcare,https://www.geeksforgeeks.org/interview-experiences/ge-healthcare-interview-experience-for-internship-on-campus-2024/
+209,8.04,2,4,7,65,82,87,57,3,54,68.14,1,Placed,32.41,Comcast,https://www.geeksforgeeks.org/interview-experiences/comcast-interview-experience-on-campus/
+210,7.37,2,2,6,40,92,51,53,3,81,79.93,0,Placed,6.75,Eucloid Data Solutions (,https://www.geeksforgeeks.org/interview-experiences/eucloid-data-solutions-interview-experience-2024/
+211,8.26,0,2,6,52,55,52,98,11,49,80.86,2,Not Placed,0.0,Argusoft Campus,https://www.geeksforgeeks.org/interview-experiences/argusoft-campus-interview-experience/
+212,8.06,2,4,3,67,83,41,64,0,68,94.97,0,Not Placed,0.0,MakeMyTrip,https://www.geeksforgeeks.org/interview-experiences/makemytrip-interview-experience-for-quality-assurance-engineer-on-campus/
+213,8.03,1,6,6,74,49,78,71,19,43,84.64,2,Placed,17.1,Cohesity,https://www.geeksforgeeks.org/interview-experiences/cohesity-interview-experience-for-site-reliability-engineer-role-on-campus-2024/
+214,6.19,3,2,4,100,97,49,68,5,70,88.31,1,Placed,29.37,Unknown,https://www.geeksforgeeks.org/interview-experiences/xoriant-associate-software-engineer-experience-for-for-freshers-on-campus-/
+215,7.36,3,2,4,77,73,80,56,8,48,75.51,2,Placed,35.65,Mahindra Comviva,https://www.geeksforgeeks.org/interview-experiences/mahindra-comviva-interview-experience-for-product-development-engineer-on-campus-2023-full-time/
+216,7.96,0,3,2,72,74,41,63,11,69,65.01,1,Not Placed,0.0,Realpage,https://www.geeksforgeeks.org/interview-experiences/realpage-interview-experience-on-campus/
+217,7.98,1,4,1,90,99,88,77,16,43,81.11,1,Placed,23.73,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-ase-on-campus-1/
+218,9.61,0,5,2,92,59,46,91,10,56,86.5,1,Placed,14.02,PwC India,https://www.geeksforgeeks.org/interview-experiences/pwc-india-interview-experience-for-technology-consulting-internship-on-campus/
+219,6.63,0,3,4,45,49,70,94,20,44,97.96,0,Placed,7.4,Arista,https://www.geeksforgeeks.org/interview-experiences/arista-interview-experience-on-campus-sde/
+220,9.32,3,4,0,87,68,65,80,1,91,91.72,1,Not Placed,0.0,Microsoft Internship,https://www.geeksforgeeks.org/interview-experiences/microsoft-internship-interview-experience-for-software-engineer/
+221,6.06,1,6,0,41,61,77,88,17,66,68.28,1,Placed,7.08,Unknown,https://www.geeksforgeeks.org/interview-experiences/deutsche-bank-interview-experiance-for-sde-full-time-on-campus/
+222,6.36,2,3,6,75,86,97,77,16,52,65.89,1,Placed,36.37,Einfochips,https://www.geeksforgeeks.org/interview-experiences/einfochips-interview-experience-on-campus-2021-2/
+223,7.1,2,5,5,45,45,75,42,6,41,89.18,2,Not Placed,0.0,KPIT Technologies,https://www.geeksforgeeks.org/interview-experiences/kpit-technologies-interview-experience-on-campus/
+224,8.9,3,2,6,43,95,40,87,9,70,94.35,1,Placed,28.87,Deloitte,https://www.geeksforgeeks.org/interview-experiences/deloitte-interview-experience-for-associate-analyst-on-campus-2/
+225,8.92,2,6,3,62,90,66,64,16,47,82.12,2,Not Placed,0.0,Squadcast Labs PVT LTD,https://www.geeksforgeeks.org/interview-experiences/squadcast-labs-pvt-ltd-interview-experience-on-campus/
+226,7.98,0,2,0,67,42,88,96,18,49,87.23,0,Placed,25.04,Shorthills.ai,https://www.geeksforgeeks.org/interview-experiences/shorthills-ai-interview-experience-on-campus-sde1/
+227,8.03,1,2,5,50,71,58,45,11,86,90.03,1,Placed,7.84,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-associate-software-engineer-role-pada-role-on-campus-2024/
+228,9.19,4,6,7,100,66,54,100,11,59,77.63,2,Placed,28.97,Energy Exemplar,https://www.geeksforgeeks.org/interview-experiences/energy-exemplar-interview-experience-on-campus-associate-software-engineer-internship-fte/
+229,6.74,0,5,2,100,91,63,85,15,88,73.92,0,Placed,19.77,UST,https://www.geeksforgeeks.org/interview-experiences/ust-interview-experience-for-software-engineer-full-time/
+230,6.62,4,4,3,81,85,68,70,19,58,67.06,1,Placed,24.41,Unilever,https://www.geeksforgeeks.org/interview-experiences/unilever-interview-experience-for-uniops-on-campus-selection-september-26-2024-at-vit-university/
+231,6.09,1,1,7,94,86,62,84,12,45,69.65,0,Placed,30.08,Seimens EDA,https://www.geeksforgeeks.org/interview-experiences/seimens-eda-interview-experience-software-digital-profile-intern-ppo/
+232,8.66,1,6,2,44,75,41,92,9,57,68.89,2,Not Placed,0.0,Happiest Mind,https://www.geeksforgeeks.org/interview-experiences/happiest-mind-interview-experience-on-campus-2024/
+233,6.18,4,5,0,47,80,52,72,8,80,66.34,2,Placed,13.47,Uber,https://www.geeksforgeeks.org/interview-experiences/uber-interview-experience-on-campus/
+234,9.76,2,3,3,43,72,75,42,2,60,89.77,0,Not Placed,0.0,Ibm,https://www.geeksforgeeks.org/interview-experiences/ibm-interview-experience-on-campus-sde/
+235,7.02,3,5,8,63,50,63,62,6,72,74.24,1,Placed,5.69,Aantaric Technologies,https://www.geeksforgeeks.org/interview-experiences/aantaric-technologies-interview-experience-analog-design-engineer-fte/
+236,8.9,3,5,4,79,42,53,77,17,42,85.9,1,Placed,31.17,Optum,https://www.geeksforgeeks.org/interview-experiences/optum-interview-experience-software-engineer-1-on-campus-3-rounds/
+237,6.41,1,4,8,80,91,53,86,19,45,87.75,2,Placed,35.05,SAP LABS,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-on-campus-developer-associate/
+238,9.33,2,4,0,50,95,54,80,7,60,83.55,2,Placed,24.01,VISA,https://www.geeksforgeeks.org/interview-experiences/visa-interview-experience-for-software-engineer-new-grad-on-campus-2024/
+239,7.76,1,2,2,54,65,84,100,8,46,67.25,2,Placed,41.16,Tech Mahindra,https://www.geeksforgeeks.org/interview-experiences/tech-mahindra-interview-experience-on-campus-2024-25/
+240,9.13,0,1,6,53,54,52,90,18,82,73.12,0,Placed,33.78,Apple,https://www.geeksforgeeks.org/interview-experiences/apple-interview-experience-sde-on-campus-2024/
+241,7.94,4,2,7,65,97,52,88,19,100,87.82,0,Not Placed,0.0,Meesho,https://www.geeksforgeeks.org/interview-experiences/meesho-interview-experience-on-campus/
+242,8.7,2,4,2,80,57,41,45,6,65,85.37,0,Placed,4.42,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-on-campus-advanced-application-engineer-analyst/
+243,9.1,1,1,2,97,78,54,53,18,40,82.57,1,Not Placed,0.0,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-on-campus-2024/
+244,7.15,4,4,4,67,71,84,84,10,60,89.44,0,Placed,44.16,Ion,https://www.geeksforgeeks.org/interview-experiences/ion-interview-experience-sde-on-campus/
+245,6.64,3,2,6,70,77,86,66,16,50,72.97,0,Placed,44.15,Sopra Banking Software Internship,https://www.geeksforgeeks.org/interview-experiences/sopra-banking-software-internship-interview-experience-batch-2025/
+246,8.63,3,4,1,63,66,65,44,5,45,88.98,1,Placed,10.73,FactSet,https://www.geeksforgeeks.org/interview-experiences/factset-interview-experience-oncampussde-role/
+247,7.13,3,2,0,66,93,70,54,2,85,73.48,0,Not Placed,0.0,Trifacta,https://www.geeksforgeeks.org/interview-experiences/trifacta-interview-experience-on-campus/
+248,6.58,2,5,0,80,100,45,69,1,97,87.71,0,Not Placed,0.0,Qualcomm Hardware |,https://www.geeksforgeeks.org/interview-experiences/qualcomm-hardware-interview-experience-soc-verification-role-6month-fte-on-campus/
+249,7.59,2,6,4,79,59,62,83,8,80,91.37,1,Placed,18.72,EPAM,https://www.geeksforgeeks.org/interview-experiences/epam-interview-experience-2024-on-campus/
+250,6.67,4,1,0,56,40,62,75,10,85,90.57,2,Placed,27.53,TCS Prime,https://www.geeksforgeeks.org/interview-experiences/tcs-prime-interview-experience-on-campus/
+251,7.34,4,1,5,52,78,74,87,11,94,90.93,1,Not Placed,0.0,Box8,https://www.geeksforgeeks.org/interview-experiences/box8-interview-experience-software-developer-intern-inter-ppo-oncampus/
+252,7.9,4,2,5,82,67,47,55,14,89,90.74,1,Placed,30.15,Zoho,https://www.geeksforgeeks.org/interview-experiences/zoho-interview-experience-2024-software-developer-on-campus-/
+253,9.61,4,1,2,70,87,74,100,7,72,74.6,1,Placed,34.56,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-on-campus-2024-intern-fulltime-2024/
+254,6.85,3,1,8,84,79,56,99,0,94,97.21,2,Not Placed,0.0,Tech Mahindra,https://www.geeksforgeeks.org/interview-experiences/tech-mahindra-interview-experience-on-campus-5/
+255,6.92,0,4,8,72,74,95,76,10,79,70.84,1,Placed,16.5,Hexaware,https://www.geeksforgeeks.org/interview-experiences/hexaware-interview-experience-3/
+256,9.23,2,2,6,42,86,71,65,14,75,86.84,2,Placed,44.77,GreyOrange,https://www.geeksforgeeks.org/interview-experiences/greyorange-interview-experience-for-sdet-on-campus/
+257,7.85,0,6,7,83,56,85,71,8,71,87.34,1,Placed,6.86,Deloitte USI Tax Technology,https://www.geeksforgeeks.org/interview-experiences/deloitte-usi-tax-technology-interview-experience-business-solution-analyst-1-software-engineer-1/
+258,9.18,3,3,0,76,85,89,81,10,89,92.39,0,Placed,43.47,SAP Labs,https://www.geeksforgeeks.org/interview-experiences/sap-labs-interview-experience-2024-sapscholar-internship-on-campus/
+259,9.46,1,3,2,47,66,69,76,8,95,65.85,2,Placed,38.37,Blue Flame Labs,https://www.geeksforgeeks.org/interview-experiences/blue-flame-labs-interview-experience-on-campus/
+260,6.33,1,1,2,45,44,85,62,10,55,88.38,2,Placed,18.34,Zoho,https://www.geeksforgeeks.org/interview-experiences/zoho-interview-experience-on-campus-/
+261,8.28,4,3,4,99,72,48,85,19,67,82.3,0,Not Placed,0.0,Google,https://www.geeksforgeeks.org/interview-experiences/google-interview-experience-swe-fte-on-campus-2024/
+262,9.78,1,3,3,69,94,41,65,9,82,95.74,1,Not Placed,0.0,TCS,https://www.geeksforgeeks.org/interview-experiences/tcs-interview-experience-on-campus-4/
+263,6.11,0,3,1,42,75,71,79,15,100,65.33,0,Placed,35.96,Unknown,https://www.geeksforgeeks.org/interview-experiences/amdocs-interview-experience-on-campus-fte/
+264,6.48,0,6,8,82,51,88,90,6,46,95.83,1,Placed,29.91,WTW,https://www.geeksforgeeks.org/interview-experiences/wtw-interview-experience-analyst-software-quality-assurance-testing-role-full-time/
+265,7.79,1,1,6,90,95,88,81,10,69,89.39,0,Not Placed,0.0,ProcDNA,https://www.geeksforgeeks.org/interview-experiences/procdna-interview-experience-for-technical-analyst-on-campus/
+266,9.51,1,5,8,80,49,48,50,14,82,95.19,1,Not Placed,0.0,Bharti Airtel,https://www.geeksforgeeks.org/interview-experiences/bharti-airtel-interview-experience-for-information-security-and-cloud-operations-on-campus/
+267,6.89,4,1,3,68,98,99,86,15,95,68.63,0,Placed,6.46,Deloitte India |,https://www.geeksforgeeks.org/interview-experiences/deloitte-india-interview-experience-admm-analyst-full-time-2025-batch-on-campus/
+268,7.65,1,4,3,48,89,94,68,20,62,68.48,2,Placed,4.99,Ansys Software Pvt. Ltd.,https://www.geeksforgeeks.org/interview-experiences/ansys-software-pvt-ltd-interview-experience-sde-intership-performance-based-ppo/
+269,8.56,0,3,2,70,40,76,67,10,76,92.68,2,Not Placed,0.0,Unthinkable Solutions,https://www.geeksforgeeks.org/interview-experiences/unthinkable-solutions-interview-experience-2024/
+270,8.08,3,6,0,51,59,54,97,18,67,92.13,0,Placed,6.21,Unknown,https://www.geeksforgeeks.org/category/experiences/interview-experiences/internship-interview-experiences/
+271,6.73,2,3,3,72,69,65,67,8,60,72.26,1,Placed,29.49,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-advance-application-engineering-aeh-on-campus-fte-2025-1/
+272,8.44,3,2,6,53,64,54,62,12,80,66.1,0,Placed,39.18,TCS,https://www.geeksforgeeks.org/interview-experiences/tcs-interview-experience-on-campus-full-stack-developer/
+273,7.46,4,1,6,91,61,93,58,14,57,76.88,0,Not Placed,0.0,Unknown,https://www.geeksforgeeks.org/interview-experiences/merilytics-interview-experince-for-data-engineer-1-2024-oncampus/
+274,6.63,2,5,2,92,98,71,100,15,73,78.98,1,Not Placed,0.0,Digivriddhi(DGV),https://www.geeksforgeeks.org/interview-experiences/digivriddhidgv-interview-experience-on-campus-placement/
+275,7.48,1,1,0,100,83,91,44,13,80,75.32,0,Placed,36.19,Lenze India,https://www.geeksforgeeks.org/interview-experiences/lenze-india-interview-experience-for-software-tester-role-on-campus-2024-batch/
+276,9.16,4,6,0,72,79,75,90,17,50,83.52,1,Placed,26.07,Deloitte,https://www.geeksforgeeks.org/interview-experiences/deloitte-interview-experience-for-india-analyst-on-campus/
+277,7.58,0,3,7,62,55,60,78,13,52,78.52,0,Placed,36.93,Shipsy,https://www.geeksforgeeks.org/interview-experiences/shipsy-interview-experience-for-sde-on-campus/
+278,7.36,0,6,2,68,43,84,99,16,64,93.92,2,Placed,12.28,Netradyne,https://www.geeksforgeeks.org/interview-experiences/netradyne-interview-experience-on-campus-batch-2025/
+279,6.16,3,1,1,42,54,41,71,16,87,92.52,1,Placed,44.32,Cloudkaptan,https://www.geeksforgeeks.org/interview-experiences/cloudkaptan-interview-experienceoncampustrainee/
+280,9.36,1,3,1,86,52,79,67,8,78,75.96,1,Placed,7.31,Unknown,https://www.geeksforgeeks.org/interview-experiences/quicksell-interview-experince-back-end-engineer-on-campus/
+281,6.11,1,5,7,87,68,92,83,12,82,88.84,0,Placed,31.88,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-on-campus-2024-2/
+282,8.75,1,4,2,89,93,78,53,0,69,74.69,2,Placed,13.39,Accenture,https://www.geeksforgeeks.org/interview-experiences/accenture-interview-experience-for-advanced-app-engineering-analyst-2024-25/
+283,9.45,4,4,7,52,79,52,96,1,79,81.27,2,Placed,25.6,Siemens EDA,https://www.geeksforgeeks.org/interview-experiences/siemens-eda-interview-experience-for-sde-role-on-campus/
+284,9.33,1,5,7,74,56,89,89,2,88,67.78,1,Placed,8.37,Vide Alpha (On-Campus),https://www.geeksforgeeks.org/interview-experiences/vide-alpha-on-campus-interview-experience/
+285,7.81,3,1,8,51,82,94,97,15,89,87.27,2,Placed,10.36,Einfochips,https://www.geeksforgeeks.org/interview-experiences/einfochips-interview-experience-on-campus-2021/
+286,6.8,0,6,5,57,41,55,100,10,77,93.52,2,Placed,38.47,JPMC,https://www.geeksforgeeks.org/interview-experiences/jpmc-interview-experience-sde-full-time-on-campus/
+287,6.98,0,2,1,50,50,98,44,3,41,80.41,0,Not Placed,0.0,MulticoreWare,https://www.geeksforgeeks.org/interview-experiences/multicoreware-interview-experience-on-campus/
+288,7.18,3,3,0,62,48,85,82,17,53,79.13,1,Placed,33.37,TCS,https://www.geeksforgeeks.org/interview-experiences/tcs-interview-experience-for-digital-on-campus-2024-/
+289,6.54,4,1,6,80,59,64,86,4,72,89.55,1,Not Placed,0.0,Caterpillar,https://www.geeksforgeeks.org/interview-experiences/caterpillar-interview-experience-on-campus-1/
+290,6.64,0,6,4,64,97,41,51,7,92,65.04,0,Placed,42.86,Course 5 Intelligence (C5i),https://www.geeksforgeeks.org/interview-experiences/course-5-intelligence-c5i-interview-experience-junior-data-analyst/
+291,9.64,0,6,0,92,54,89,79,14,96,96.01,1,Placed,27.57,Oracle,https://www.geeksforgeeks.org/interview-experiences/oracle-interview-experience-application-developeron-campus-12th-august-2024/
+292,8.31,0,3,7,99,48,81,87,16,77,70.74,2,Placed,24.77,Optimus Infotech,https://www.geeksforgeeks.org/interview-experiences/optimus-infotech-interview-experience-for-sde-fresher-on-campus/
+293,6.28,0,6,8,42,58,45,91,18,89,86.97,1,Placed,37.53,Optum,https://www.geeksforgeeks.org/interview-experiences/optum-interview-experience-2024-tdp-associate-on-campus/
+294,7.98,0,6,2,60,86,82,95,9,100,75.73,0,Not Placed,0.0,EY GDS,https://www.geeksforgeeks.org/interview-experiences/ey-gds-interview-experience-on-campus-1/
+295,8.8,1,3,3,99,44,74,100,15,75,65.89,1,Placed,6.57,State Street,https://www.geeksforgeeks.org/interview-experiences/state-street-interview-experience-technology-internship-program-6-months/
+296,6.96,4,5,1,51,59,84,53,16,55,81.11,2,Placed,32.28,DXC technology,https://www.geeksforgeeks.org/interview-experiences/dxc-technology-interview-experience-for-associate-engineer-on-campus/
+297,7.07,3,5,6,50,69,78,49,1,70,83.9,2,Not Placed,0.0,Barclays,https://www.geeksforgeeks.org/interview-experiences/barclays-interview-experience-fte-on-campus-2025/
+298,6.04,4,6,6,66,44,42,95,4,81,95.37,0,Placed,12.69,IQVIA,https://www.geeksforgeeks.org/interview-experiences/iqvia-interview-experience-for-analyst-role-6m-internshipppo-on-campus/
+299,8.89,0,6,8,90,84,43,51,9,51,94.29,1,Not Placed,0.0,Cvent,https://www.geeksforgeeks.org/interview-experiences/cvent-interview-experience-for-sre-role-on-campus/
+300,8.16,0,6,0,81,73,90,79,13,82,87.04,1,Not Placed,0.0,Rapi-Pay,https://www.geeksforgeeks.org/interview-experiences/rapi-pay-interview-experience-on-campus-2024/
+301,9.6,3,5,8,100,79,86,77,2,71,80.07,0,Placed,20.01,Informatica,https://www.geeksforgeeks.org/interview-experiences/informatica-interview-experience-for-apprenticeship-fte-on-campus-2024/

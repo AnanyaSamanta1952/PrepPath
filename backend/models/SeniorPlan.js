@@ -1,20 +1,26 @@
-//Stores successful preparation
 const mongoose = require("mongoose")
 
 const seniorPlanSchema = new mongoose.Schema({
-    user_id: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
-    },
+
     company: String,
-    months_of_preparation: Number,
-    dsa_problems: Number,
-    projects: Number,
-    mock_interviews: Number,
-    internships: Number,
-    hackathons: Number,
-    subjects: [String],
-    tips: String
+
+    preparationJourney: String,
+
+    dsaExperience: String,
+
+    interviewExperience: String,
+
+    projectExperience: String,
+
+    mockExperience: String,
+
+    tips: String,
+
+    createdAt: {
+        type: Date,
+        default: Date.now
+    }
+
 })
 
 module.exports = mongoose.model("SeniorPlan", seniorPlanSchema)

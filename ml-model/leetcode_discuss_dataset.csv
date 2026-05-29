@@ -1,0 +1,501 @@
+student_id,discussion_title,views,company,leetcode_solved,contest_rating,internships,projects,cgpa,communication_score,cs_fundamentals_score,placement_status,salary_package_lpa
+1,Google Online Assessment Questions,866357,Google,2025,1942,0,6,7.2,65,68,Not Placed,0.0
+2,How to write an Interview Question post,181291,Unknown,1369,1782,3,4,9.14,77,44,Not Placed,0.0
+3,Need help with embedded domain design interview,24,Unknown,2169,1257,4,2,8.25,72,81,Not Placed,0.0
+4,Increased number of HARD problems in last 30 days list?,83,Unknown,1173,2282,3,2,6.46,89,74,Not Placed,0.0
+5,Seeing multiple interviewers for On Site Round?,70,Unknown,596,1863,1,6,9.43,42,49,Not Placed,0.0
+6,Amazon SDE interview | what should I do,19,Amazon,2379,2359,4,5,6.75,100,48,Not Placed,0.0
+7,TDP assesment,18,Unknown,1242,1205,4,6,6.23,84,74,Not Placed,0.0
+8,Upcoming Meta Interview,139,Meta,925,1613,0,2,7.01,98,88,Not Placed,0.0
+9,Microsoft | L61 Interview | Viva Team,29,Microsoft,610,1664,1,6,8.87,82,95,Not Placed,0.0
+10,Meta Onsite E4 suggestions,213,Meta,1247,2075,4,1,8.21,60,87,Not Placed,0.0
+11,Meta E4 Behavioral Redo,179,Meta,648,1541,3,2,7.14,51,82,Not Placed,0.0
+12,Interview Question,25,Unknown,1764,2428,1,2,8.77,81,72,Not Placed,0.0
+13,Meesho OA 2025,30,Unknown,640,2440,0,6,9.48,67,54,Not Placed,0.0
+14,Issue with ChatGPT Providing Incorrect Answer for a Coding Problem,28,Unknown,1333,2592,3,1,6.08,81,59,Not Placed,0.0
+15,Need Suggestion,20,Unknown,874,2484,3,5,6.53,67,100,Not Placed,0.0
+16,AI engineer - 2k25,25,Unknown,572,2446,3,3,8.08,97,78,Not Placed,0.0
+17,Meta E6 Phone Screen,307,Meta,657,2159,4,1,8.01,67,92,Not Placed,0.0
+18,Follow up infra design round,182,Unknown,746,1550,4,2,8.45,97,55,Not Placed,0.0
+19,My Story || Need Your Help,24,Unknown,1480,2565,2,3,7.9,67,97,Not Placed,0.0
+20,Amazon SDE 1 Onsite,22,Amazon,2012,1213,4,5,9.66,44,69,Not Placed,0.0
+21,Why Recursion needed ?,35,Unknown,1799,1897,1,5,6.9,93,91,Not Placed,0.0
+22,Need suggestions on AWS SDE 2 System Design (HLD) Questions,89,Unknown,223,1688,0,6,6.91,64,43,Not Placed,0.0
+23,earnin MLE phone,0,Unknown,463,1715,4,2,9.42,40,75,Not Placed,0.0
+24,Meta E4 Interview Experience,302,Meta,1479,2551,2,5,6.95,92,99,Not Placed,0.0
+25,Meta Phone Screen,22,Meta,868,1630,4,2,7.57,70,59,Not Placed,0.0
+26,Amazon | SDE1 | New Grad 2025 | UK | Phone Screen,88,Amazon,302,1867,4,6,7.16,100,45,Not Placed,0.0
+27,Doubt: Palindrome Number,35,Unknown,2011,1837,1,6,9.55,86,72,Not Placed,0.0
+28,Want to change team in Salesforce Industries Cloud,28,Unknown,676,1693,1,1,6.82,71,94,Not Placed,0.0
+29,Apple Sr Software Engineer (Cupertino) Interview Experience,154,Apple,424,1290,4,5,9.7,64,40,Not Placed,0.0
+30,Need Help || Booking Holdings Offer,67,Unknown,1005,1439,0,1,8.85,92,58,Placed,33.88
+31,L3 interview experience,368,Unknown,1655,1930,0,5,6.27,61,44,Not Placed,0.0
+32,Mock interview for preparation,155,Unknown,1833,2512,0,1,6.89,91,59,Not Placed,0.0
+33,Microsoft | L60 ActionCentre Status Completed but No response since 1-2 weeks,150,Microsoft,1316,2366,0,3,9.57,68,84,Not Placed,0.0
+34,Confused Among two offers,181,Unknown,2224,1480,2,6,7.42,67,88,Placed,18.23
+35,Meta Screening,20,Meta,302,1732,3,4,8.79,57,75,Not Placed,0.0
+36,Hubspot Virtual Round US | BE SWE 2,72,Unknown,344,2533,0,4,9.52,89,97,Not Placed,0.0
+37,Meta Phone Screen Strategy - SWE Product,407,Meta,113,2282,4,6,7.6,78,54,Not Placed,0.0
+38,Google Interview Feedback,16,Google,463,1578,0,6,7.58,55,50,Not Placed,0.0
+39,Google Interview experience,151,Google,1691,1677,4,1,6.3,72,76,Not Placed,0.0
+40,Insertion Sort || JAVA || Explained,34,Unknown,2442,1315,4,3,9.25,56,97,Not Placed,0.0
+41,onsite,24,Unknown,1355,1891,3,1,9.57,86,75,Not Placed,0.0
+42,I solved less than 300 LeetCode questions but still made it to Google,3711,Google,1109,2061,2,4,8.65,88,87,Not Placed,0.0
+43,Apple tech screen experience,19,Apple,1273,1429,4,5,8.18,40,77,Not Placed,0.0
+44,Meta Phone Screen,21,Meta,2229,2534,0,6,6.97,94,89,Not Placed,0.0
+45,Google Feeback,17,Google,454,2000,1,5,8.03,91,98,Not Placed,0.0
+46,TypeScript/JavaScript Heap Runtime error,34,Unknown,1308,2492,4,6,6.44,83,46,Not Placed,0.0
+47,Adobe Take home Assessment for SDE 30,20,Adobe,650,1889,0,4,7.35,90,47,Not Placed,0.0
+48,Meta asked DP in Screening[Failed],18,Meta,2380,1928,1,2,8.78,99,49,Not Placed,0.0
+49,Meta E4 Phone Screen,308,Meta,1587,1506,1,4,8.28,92,61,Not Placed,0.0
+50,Cerebras Interview,21,Unknown,442,1689,0,6,8.97,56,79,Not Placed,0.0
+51,Different time contests.,37,Unknown,450,1790,1,2,6.81,100,52,Not Placed,0.0
+52,My Interview Experience with Chargebee Bangalore,17,Unknown,517,1538,0,2,9.78,44,87,Not Placed,0.0
+53,Meta | follow up | coding round,443,Meta,1117,1920,2,2,8.38,66,76,Not Placed,0.0
+54,distributeCandies,46,Unknown,2216,2118,3,2,9.05,85,83,Not Placed,0.0
+55,1000 days Badge!!,314,Unknown,859,2419,0,5,8.12,81,76,Not Placed,0.0
+56,Meta E4 Phone Screen,640,Meta,517,1749,0,4,8.82,69,93,Not Placed,0.0
+57,need advice,18,Unknown,2106,1304,4,2,9.16,62,72,Not Placed,0.0
+58,Microsoft | SDE2 | L61 | 28th Feb Hiring Drive,24,Microsoft,910,1790,4,1,9.46,50,47,Not Placed,0.0
+59,Anyone facing issues with TypeScript/JavaScript Min and Max PriorityQueues ?,25,Unknown,1401,1582,1,4,8.35,45,77,Not Placed,0.0
+60,Google Interview Question Help | Onsite 1,264,Google,1622,2293,0,2,6.65,51,56,Not Placed,0.0
+61,Google or Remote,951,Google,956,2068,3,3,8.05,47,48,Not Placed,0.0
+62,Goldman Sachs | Interview Experience,19,Unknown,2415,2503,3,5,6.5,42,59,Not Placed,0.0
+63,"Apple-Java,Springboot,Microservices Elimination round interviews scheduled on March 7th 2025",104,Apple,1316,2295,2,1,9.09,73,70,Not Placed,0.0
+64,How Using an Array Instead of a HashMap Works,660,Unknown,2107,2306,1,5,8.66,91,45,Not Placed,0.0
+65,Software Developer Interview at Amazon,829,Amazon,1986,1575,1,5,8.49,72,48,Not Placed,0.0
+66,Amazon System Design,21,Amazon,2200,2057,3,4,7.07,66,62,Not Placed,0.0
+67,Gorakhpur to Nepal Tour Package,0,Unknown,2284,2207,3,1,9.43,90,93,Not Placed,0.0
+68,DSA preparation help for Google ( Rounds 2 and 3 ),0,Google,1203,1231,4,6,9.45,46,41,Not Placed,0.0
+69,Google Lowballing Experienced Candidates for L3 – My Experience,548,Google,413,2028,1,1,9.55,69,46,Not Placed,0.0
+70,Microsoft Interview Process Query,16,Microsoft,120,1856,1,5,6.18,90,92,Not Placed,0.0
+71,Meta [Software Engineer E4] Phone Screen,18,Meta,2493,1309,1,5,7.77,58,70,Not Placed,0.0
+72,What are the most common questions asked in a phone interview for an SDE 1 position?,278,Unknown,2235,2333,1,3,6.0,76,54,Not Placed,0.0
+73,Amazon Interview cram session,17,Amazon,2475,1304,3,2,7.1,54,91,Not Placed,0.0
+74,Glean | New Grad Interview Full Loop Experience,2430,Unknown,2314,1219,3,4,8.42,71,60,Not Placed,0.0
+75,Yahoo | SDE Intern | 2025,145,Unknown,1997,1481,3,1,6.14,63,75,Not Placed,0.0
+76,Meta | Phone Screen,1056,Meta,1678,2595,3,4,8.42,93,99,Not Placed,0.0
+77,Google L3 | Phone Screen | Reject,328,Google,1026,2325,0,5,7.49,45,42,Not Placed,0.0
+78,Meta Variant for Next Permutation (LC31),578,Meta,1005,1867,3,2,8.0,96,55,Not Placed,0.0
+79,20 Most Important Interview Questions in JAVA,92,Unknown,2384,2338,0,4,9.45,49,55,Not Placed,0.0
+80,Looking for leetcode prep buddy,1,Unknown,1132,2423,2,5,7.51,64,49,Not Placed,0.0
+81,Meta | Phone Screening,17,Meta,1081,1843,3,2,8.32,82,52,Not Placed,0.0
+82,Goldman Sachs Superday,21,Unknown,2011,1840,3,6,7.69,43,52,Not Placed,0.0
+83,Goldman Sachs Superday,16,Unknown,1921,1876,4,3,6.22,53,45,Not Placed,0.0
+84,Python Data Structure Shortcuts for Coding Interviews,73,Unknown,1702,2271,0,4,7.8,42,44,Not Placed,0.0
+85,Ethos Life OA Question,17,Unknown,2299,1548,0,5,9.33,95,74,Not Placed,0.0
+86,"Pinterest Coding 2024, Can't solve using AI either",27,Unknown,244,1873,4,1,7.13,55,81,Not Placed,0.0
+87,[TikTok] AMS Intern Assessment 2025 Start - 1-5 Mar (Generic),38,Unknown,176,2529,1,5,9.14,89,54,Not Placed,0.0
+88,Stripe Phone Screen | USA | March 2025 | SWE | Suggestion,12,Unknown,2389,1942,1,2,7.14,47,79,Not Placed,0.0
+89,UKG VS WALMART,20,Walmart,739,2347,1,3,9.14,71,87,Not Placed,0.0
+90,Meta E4 Onsite result | Feeling anxious,1063,Meta,1353,1459,3,2,9.17,79,58,Not Placed,0.0
+91,UKG | OA | ROUND |2025 | FEB,133,Unknown,523,1541,2,3,8.37,48,47,Not Placed,0.0
+92,Meta London Interviews,226,Meta,142,1653,4,3,7.52,80,86,Not Placed,0.0
+93,Meta E4 | Phone Screen | Reject despite solving two problems,614,Meta,1696,2291,3,6,8.75,45,94,Not Placed,0.0
+94,Amazon Online Assessment Question,19,Amazon,1940,1573,2,2,8.45,95,65,Not Placed,0.0
+95,Amazon LP Questions list that I created while preparing for my interview,5005,Amazon,1456,1884,4,5,6.29,70,46,Not Placed,0.0
+96,🚀 Amazon Online Assessment | Lexicographically Largest Array (LeetCode / HackerRank),330,Amazon,1252,1265,1,1,9.03,65,82,Not Placed,0.0
+97,INTEL INTERVIEW,171,Unknown,972,1441,0,3,8.15,72,93,Not Placed,0.0
+98,Microsoft | L60 | Hyderabad,402,Microsoft,1835,2233,0,3,6.8,76,76,Not Placed,0.0
+99,LinkedIn SSE OA,207,Unknown,148,2290,0,5,6.77,78,83,Not Placed,0.0
+100,Need Help with Googlyness Round Preparation,102,Unknown,1345,1805,0,2,7.45,85,45,Not Placed,0.0
+101,Dynamic Programming List,415,Unknown,753,1773,4,5,7.47,47,53,Not Placed,0.0
+102,LeetCode Premium sharing for Upcoming Google L-3 SWE interviews,678,Google,1521,1681,0,6,8.03,48,55,Not Placed,0.0
+103,Meta | Phone Screen,510,Meta,1606,1381,3,1,8.72,89,45,Not Placed,0.0
+104,Google L3 Phone Screen,276,Google,1588,1842,4,3,6.7,40,74,Not Placed,0.0
+105,Microsoft | Online Hiring Drive |  Senior Dev Role,114,Microsoft,446,1847,3,2,9.48,96,100,Not Placed,0.0
+106,Microsoft | SDE2 | Hiring Drive 28 Feb | L61,45,Microsoft,1082,2059,2,5,6.24,53,57,Not Placed,0.0
+107,kutumb interview experience,16,Unknown,2380,1368,0,2,7.0,46,84,Not Placed,0.0
+108,LinkedIn Phone Screen,13,Unknown,1769,1381,4,2,7.09,41,42,Not Placed,0.0
+109,Meta E4 Phone screen,487,Meta,1267,1500,3,3,7.78,85,76,Not Placed,0.0
+110,Salesforce MTS 2025,158,Unknown,839,1905,0,5,7.09,58,40,Not Placed,0.0
+111,How do you visualize recursion and backtracking?,72,Unknown,323,1749,0,5,6.18,49,46,Not Placed,0.0
+112,How to do this google interview question,215,Google,550,1563,0,1,8.34,67,75,Not Placed,0.0
+113,Hashing and Normal Approach Coding Which one is Better for Interview Time????,38,Unknown,382,1672,3,3,9.04,66,79,Not Placed,0.0
+114,I am shortlisted in Zscaler,11,Unknown,616,2316,4,4,9.77,100,100,Not Placed,0.0
+115,Optiver - SDE OA,24,Unknown,1877,2450,4,4,7.53,83,51,Not Placed,0.0
+116,Google L5 interview Experience (rejected),493,Google,2236,1765,2,5,9.52,56,70,Not Placed,0.0
+117,Databricks Tech Phonescreen L4 Experience,28,Unknown,549,1558,4,5,6.51,66,45,Not Placed,0.0
+118,Amazon Interview Experience | L5 | Backend Engineer | Rejected,626,Amazon,1228,2559,1,6,8.57,40,87,Not Placed,0.0
+119,Meta E5 phone screen - PASSED,833,Meta,2382,2395,2,1,9.09,88,69,Not Placed,0.0
+120,Microsoft | Software Engineer 2 | Level 61| Screening round,198,Microsoft,799,1513,3,2,7.08,78,65,Not Placed,0.0
+121,LinkedIn Phone Screen | India - Software Engineer,143,Unknown,203,1539,1,6,9.44,49,92,Not Placed,0.0
+122,Meta E5 Phone Screen - (Unexpected questions),1841,Meta,187,2599,0,1,6.49,82,41,Not Placed,0.0
+123,Google L3 Interview Experience - 1.5 YOE,175,Google,625,2593,2,5,9.75,61,59,Not Placed,0.0
+124,booking.com | machine learning engineer  | Amsterdam,28,Unknown,2097,1458,2,2,9.44,68,88,Not Placed,0.0
+125,Booking.com | machine learning engineer II interview,0,Unknown,1412,1332,1,5,6.03,57,47,Not Placed,0.0
+126,LinkedIn OA,114,Unknown,562,2065,1,3,7.74,52,42,Not Placed,0.0
+127,Amazon SDE 1 Virtual Onsite Interview (Given NP-Hard problem),641,Amazon,1696,1410,4,2,7.82,91,100,Not Placed,0.0
+128,Goldman Sachs | Analyst  | Bengaluru & Hyderabad | OA,182,Unknown,1231,1398,4,2,6.67,88,86,Not Placed,0.0
+129,Salesforce | MTS | OA,130,Unknown,1504,2062,2,6,8.35,92,46,Not Placed,0.0
+130,Senior AI Engineer Power Day?,16,Unknown,1951,2211,0,2,6.21,70,95,Not Placed,0.0
+131,Meta E5 Phone Screen London (28/2/25),258,Meta,793,1918,0,1,9.05,99,93,Not Placed,0.0
+132,Meta Phone Screen Software Engineer,432,Meta,1601,2498,2,2,6.04,94,84,Not Placed,0.0
+133,Have Some DOubt regarding submission Time in CSES problems using Python?,37,Unknown,127,1462,1,5,9.09,69,95,Not Placed,0.0
+134,Okta | OA | VisageTomeToOkta,64,Unknown,114,1900,4,4,7.42,92,56,Not Placed,0.0
+135,Microsoft | L60 | Hyd | Offer,230,Microsoft,1891,2484,1,1,7.83,68,51,Placed,48.89
+136,List Of Problems,155,Unknown,208,1343,2,6,7.41,68,52,Not Placed,0.0
+137,Microsoft | Onsite | L62,253,Microsoft,1465,1223,4,5,7.12,87,71,Not Placed,0.0
+138,🚀 Amazon SDE-1 Interview: Interviewer Didn’t Show Up in Round 2! 🤯 What Now? 💻❓,547,Amazon,1982,2310,2,4,9.5,90,86,Not Placed,0.0
+139,Booking.com Interview Help,26,Unknown,1489,2089,3,3,9.7,42,54,Not Placed,0.0
+140,Google Software Engineer - L4 Chances,458,Google,2086,1402,4,4,6.15,95,95,Not Placed,0.0
+141,Atlassian Result Timeline?,110,Atlassian,598,1471,0,6,8.06,86,88,Not Placed,0.0
+142,intuition or approach for the DSA based question,255,Unknown,1660,2206,3,2,8.89,67,57,Not Placed,0.0
+143,Google L4 Interview Experience,1360,Google,1768,2311,4,3,9.58,98,89,Not Placed,0.0
+144,Graph- OA question,8,Unknown,263,2097,4,6,8.67,78,50,Not Placed,0.0
+145,Tiktok Backend System Design Interview,41,Unknown,1608,1351,3,2,8.03,85,69,Not Placed,0.0
+146,Phone Screen | Meta | Infra E5,80,Meta,1778,1267,0,5,9.66,85,46,Not Placed,0.0
+147,USA | Brex | SWE II,145,Unknown,2292,2297,1,3,8.88,71,66,Not Placed,0.0
+148,USA SDE II Role Glean Phone Interview,83,Unknown,668,2065,2,1,8.64,49,68,Not Placed,0.0
+149,Meta Team Match USA @ E4,578,Meta,585,2565,4,3,7.51,95,71,Not Placed,0.0
+150,Meta Phone Screen - SDE,311,Meta,1108,1899,1,1,7.28,50,47,Not Placed,0.0
+151,Bloomberg - 2025 SWE New Grad | Final Round (EM) | NYC,73,Unknown,1622,2054,2,4,7.41,75,64,Not Placed,0.0
+152,Meta phone screen software engineer,630,Meta,357,1314,2,1,7.84,87,41,Not Placed,0.0
+153,Meta SWE ML E5 | Onsite + Phone screen,319,Meta,1198,2448,3,5,7.25,53,55,Not Placed,0.0
+154,Microsoft L63/L62,175,Microsoft,1878,2305,1,1,8.19,52,45,Not Placed,0.0
+155,Meta Variant for Accounts Merge (LC721),894,Meta,2107,2150,0,1,7.55,65,91,Not Placed,0.0
+156,Zeta | Engineering Internship 2025 | India,144,Unknown,569,1738,0,2,8.33,100,50,Not Placed,0.0
+157,Microsoft SDE1 interview off campus,195,Microsoft,1764,1544,3,1,6.31,92,98,Not Placed,0.0
+158,Apple sde3 coding round,181,Apple,1793,2011,0,5,8.13,91,69,Not Placed,0.0
+159,Meta PE screening interview,414,Meta,2240,1700,3,4,6.54,47,70,Not Placed,0.0
+160,"Shortest Weighted Path, Special Conditions",54,Unknown,1224,1351,2,4,7.12,68,98,Not Placed,0.0
+161,Seeking Help: IN3 Backend Position at Walmart,185,Walmart,1335,1248,4,1,6.94,85,79,Not Placed,0.0
+162,Version Control System,24,Unknown,1315,2002,4,3,7.06,93,69,Not Placed,0.0
+163,Meesho SDE1 OA 2025,211,Unknown,897,2510,0,6,7.88,76,57,Not Placed,0.0
+164,Amazon Sde 1 Full Time Experience | Contract Experience (6 months),573,Amazon,1175,2279,4,6,7.74,78,90,Not Placed,0.0
+165,Amazon SDE-2 | Onsite | Feb 2025 | Seattle,387,Amazon,2068,1994,1,2,8.24,75,83,Not Placed,0.0
+166,Meta E5 Phone Screen,595,Meta,528,1288,3,2,8.65,98,92,Not Placed,0.0
+167,Amazon SDE 2 | Onsite,1128,Amazon,1904,1759,3,3,7.92,44,82,Not Placed,0.0
+168,Upcomming Agoda Staff Software Engineer - Front End,26,Unknown,1762,1549,0,5,9.51,97,89,Not Placed,0.0
+169,Meta | Onsite | SWE E6 | USA | Reject,194,Meta,2277,1284,0,4,8.62,70,81,Not Placed,0.0
+170,Atlassian Machine Learning System Engineer Screening round,140,Atlassian,1964,1527,0,2,6.49,48,89,Not Placed,0.0
+171,[Summer 2025] Core Engineering Intern Test,28,Unknown,2000,2387,3,5,6.54,67,45,Not Placed,0.0
+172,AWS OA SDE2,17,Unknown,1805,2408,0,2,6.47,87,80,Not Placed,0.0
+173,Career Advice for an Undergraduate Junior,54,Unknown,1521,1245,0,2,9.03,90,49,Not Placed,0.0
+174,Walmart vs Tekion | Need help,86,Walmart,1040,1504,0,2,6.21,68,88,Not Placed,0.0
+175,Google Interview Experience,412,Google,1228,1509,2,5,6.48,85,86,Not Placed,0.0
+176,Career Change HELP!!!!!!!!!!,17,Unknown,1592,1397,1,4,8.48,98,49,Not Placed,0.0
+177,Microsoft SDE 2 | Hyderabad,19,Microsoft,507,1533,0,2,9.6,63,70,Not Placed,0.0
+178,AMAZON SDE-1 OA,814,Amazon,764,2267,1,2,6.25,91,45,Not Placed,0.0
+179,Meta E5,177,Meta,1155,1717,2,1,9.28,46,86,Not Placed,0.0
+180,Amazon SDE-1 Interview Experience: A Journey Through Three Rounds,3765,Amazon,155,1499,4,4,8.96,92,64,Not Placed,0.0
+181,LinkedIn | Reject,354,Unknown,1145,1424,1,2,8.61,86,60,Not Placed,0.0
+182,find index with maximum distance between two occupied seats |Amazon,219,Amazon,2454,1617,4,4,9.22,86,49,Not Placed,0.0
+183,Gorakhpur to Nepal Tour Package,0,Unknown,118,2512,0,3,9.46,87,41,Not Placed,0.0
+184,GOOGLE ML INTERVIEW,167,Google,1163,1344,1,6,7.7,99,46,Not Placed,0.0
+185,HCL tech interview,1,Unknown,1632,2506,0,2,9.76,49,67,Not Placed,0.0
+186,LinkedIn Technical Screening,287,Unknown,2021,1870,0,2,6.34,80,77,Not Placed,0.0
+187,Guidance for upcoming Amazon Tokyo SDE2 First Interview,141,Amazon,2047,2383,4,4,8.7,59,42,Not Placed,0.0
+188,📌📌 Google latest Interview Experiences : Collection - Curated and organised,6966,Google,1891,1307,3,2,6.03,42,45,Not Placed,0.0
+189,Microsoft rescheduling,149,Microsoft,254,1585,1,3,6.5,42,87,Not Placed,0.0
+190,DoorDash Technical Phone Chat/Screen prep tips,199,Unknown,1695,1622,3,2,7.15,75,73,Not Placed,0.0
+191,Apple SDET Interview Need help for prep,115,Apple,1278,2054,2,5,8.23,63,99,Not Placed,0.0
+192,Linkedin interview experience - SE [Reject],327,Unknown,2208,1375,1,5,7.38,57,74,Not Placed,0.0
+193,TikTok OA: Views and Duration,18,Unknown,1599,1278,0,6,6.26,82,60,Not Placed,0.0
+194,Goldman Sachs Super Day,22,Unknown,1698,1972,0,3,8.98,89,84,Not Placed,0.0
+195,Google L3 Coding Interview – Need Insights & Questions!!,273,Google,608,1809,2,4,9.35,84,76,Not Placed,0.0
+196,Google rejection,1609,Google,1507,2370,4,6,7.51,81,69,Not Placed,0.0
+197,Need Info on Amazon SDE 2 Virtual Loop USA,315,Amazon,645,2417,2,6,7.4,54,40,Not Placed,0.0
+198,Airbnb TPS,129,Unknown,826,1394,1,5,8.4,91,77,Not Placed,0.0
+199,Amazon | SDE 2 | Loop | USA - Reject,637,Amazon,260,2109,0,2,9.01,52,95,Not Placed,0.0
+200,"Help Needed: Issues with Solution to LeetCode 2467 ""Most Profitable Path in a Tree""",33,Unknown,1393,2598,3,2,6.25,57,79,Not Placed,0.0
+201,Microsoft | Interview Experience,17,Microsoft,1510,2083,0,3,6.62,95,45,Not Placed,0.0
+202,Morgan Stanley OA problems,99,Unknown,199,1272,0,6,8.72,65,53,Not Placed,0.0
+203,AMAZON OA,377,Amazon,2128,1295,1,3,7.03,47,82,Not Placed,0.0
+204,Stuck at team fit Phase - My Google L4 hiring experience,257,Google,1832,1512,1,1,8.89,56,95,Not Placed,0.0
+205,Google|Onsite|Ghosted,1065,Google,861,1982,0,1,7.88,92,74,Not Placed,0.0
+206,Submit shows different statistics for the same code,39,Unknown,2256,2600,3,6,8.99,49,77,Not Placed,0.0
+207,Swiggy | SDE 2 | Offer Freeze,20,Unknown,2467,1807,3,3,7.49,78,74,Placed,34.68
+208,Google | Phone Interview | Feb 2025,336,Google,1369,2371,0,1,6.81,91,67,Not Placed,0.0
+209,Amazon SDE 1 Round 2,8214,Amazon,2428,2373,0,2,6.43,63,48,Not Placed,0.0
+210,Meta London E4/E5,18,Meta,1005,1770,3,2,7.17,60,91,Not Placed,0.0
+211,Batch Packing Problem,144,Unknown,851,2167,2,1,8.11,71,41,Not Placed,0.0
+212,Flexport | SDE-1 | Online Assessment & Interview Experience | Feb 2025 | 1.5 yrs Experience,1023,Unknown,680,1385,2,3,9.58,54,88,Not Placed,0.0
+213,Data Analyst Apprentice(Google),93,Google,1733,1598,0,4,7.58,51,68,Not Placed,0.0
+214,Google SAD Apprentice 1 f2f round,81,Google,1208,2505,1,4,6.83,62,56,Not Placed,0.0
+215,Meta Phone Screen US,798,Meta,1540,1668,3,1,8.72,48,41,Not Placed,0.0
+216,Linkedin | Phone Screen - SSE | Maximum SubArray | Reverse a String,365,Unknown,1503,1847,1,2,8.0,84,100,Not Placed,0.0
+217,Meesho Online Assessment,232,Unknown,1344,1465,2,2,8.84,42,66,Not Placed,0.0
+218,Goldman Sachs Online Assessment,189,Unknown,615,2446,1,4,6.98,76,41,Not Placed,0.0
+219,"Meta | Tech Screen | SW,ML (2/24/25)",851,Meta,576,1528,1,3,8.39,80,97,Not Placed,0.0
+220,Chances of getting hired in google for SE-3,244,Google,350,1459,4,3,7.96,54,94,Placed,45.87
+221,Meta E4 Phone Screen Feb 24 2025,1131,Meta,2100,2138,0,2,9.57,54,44,Not Placed,0.0
+222,Google L4 Interview,432,Google,179,2094,4,2,7.81,49,63,Not Placed,0.0
+223,META LONDON SOFTWARE ENGINEER INFRA MOCK INTERVIEW NEEDED,308,Meta,1982,2112,4,3,7.06,50,80,Not Placed,0.0
+224,Meta Variant for Maximum Swap (LC670),524,Meta,175,1401,2,5,6.73,72,72,Not Placed,0.0
+225,amazon oa,469,Amazon,1771,1847,1,4,7.87,54,60,Not Placed,0.0
+226,Apollo.io Interview | Senior Backend | Reject,85,Unknown,1404,2182,4,3,8.74,89,90,Not Placed,0.0
+227,19 Insanely Useful Python Automation Scripts I Use Every Day,112,Unknown,2165,1407,3,4,6.11,42,98,Not Placed,0.0
+228,Microsoft L60 Chances,627,Microsoft,2060,1618,2,3,6.08,61,77,Not Placed,0.0
+229,Preparing for Meta Screening Interview,514,Meta,251,1254,1,1,8.26,86,44,Not Placed,0.0
+230,Alien Dictionary - Failing Few Test Cases,56,Unknown,2213,2518,0,5,6.06,49,50,Not Placed,0.0
+231,Technical Assessment | Apple | Full Stack role | Feb 2025,16,Apple,2163,1344,3,1,9.37,59,74,Not Placed,0.0
+232,Looking for Suggestions & Career Advice – 6 Months of Job Hunting,3396,Unknown,392,1213,2,5,8.0,42,55,Not Placed,0.0
+233,Amazon London upcoming interview,4,Amazon,326,1635,4,1,9.63,56,46,Not Placed,0.0
+234,Apple Interview Experience | L4 | SDE 2 | Hyderabad,1314,Apple,2088,2212,2,3,9.22,85,41,Not Placed,0.0
+235,Walmart SWE III vs NoBroker SSE,7,Walmart,2118,1690,4,4,6.6,68,68,Not Placed,0.0
+236,Google Phone Screen Feedback help,187,Google,893,1628,2,2,6.46,63,54,Not Placed,0.0
+237,Google L3 Phone Screen Question,336,Google,1929,1377,3,6,8.66,40,64,Not Placed,0.0
+238,Amazon SDE-1 (Feb 2025) Interview Experience,1597,Amazon,706,1320,2,2,6.09,71,40,Not Placed,0.0
+239,Aurora Onsite coding that I am not able to solve,0,Unknown,1093,1833,2,6,6.66,78,69,Not Placed,0.0
+240,Databricks Behavioral Interview Prep,0,Unknown,2498,2474,2,3,7.25,46,71,Not Placed,0.0
+241,Rubrik interviews coming up - Urgent!!,177,Unknown,591,2166,0,4,9.08,47,93,Not Placed,0.0
+242,IC4 Meta Interview,249,Meta,2428,1613,3,2,6.77,93,82,Not Placed,0.0
+243,Switch from Meta Infra to Product before Onsite | Need Advise,245,Meta,1975,1696,2,3,9.31,98,57,Not Placed,0.0
+244,Oracle phone interview,122,Oracle,1090,1862,2,2,7.03,86,74,Not Placed,0.0
+245,Salesforce Online Assesment,47,Unknown,1873,1220,3,4,6.56,84,82,Not Placed,0.0
+246,Meta Onsite Question,218,Meta,737,2347,0,5,7.27,72,81,Not Placed,0.0
+247,Amazon | OA,743,Amazon,384,2533,0,4,6.74,75,64,Not Placed,0.0
+248,Meta | Phonescreen,200,Meta,110,1370,4,3,8.96,84,62,Not Placed,0.0
+249,Amazon SDE 2 | Phone Screen,470,Amazon,1154,1484,4,6,7.82,69,42,Not Placed,0.0
+250,HubSpot Senior SE Interview - What Questions Were Asked Recently?,118,Unknown,1958,1371,0,1,6.12,78,79,Not Placed,0.0
+251,Amazon | SDE II | OA,414,Amazon,2190,2563,0,4,8.84,78,91,Not Placed,0.0
+252,Stripe Onsite Experience Needed,8,Unknown,1167,1883,4,4,7.66,94,67,Not Placed,0.0
+253,📍📍 Morgan Stanley (Code to Give) Online Assessment Questions,1900,Unknown,2167,2088,4,6,7.01,51,84,Not Placed,0.0
+254,Wayfair Interview,9,Unknown,1968,1247,2,6,7.71,78,93,Not Placed,0.0
+255,Google Interview Experiences - Compilation,1740,Google,2285,1829,0,4,9.03,84,72,Not Placed,0.0
+256,Morgan Stanley (Code to Give) Online Assessment Questions,159,Unknown,1208,2587,4,1,9.66,71,81,Not Placed,0.0
+257,Meta | Recently asked Product Architecture questions,693,Meta,377,1735,3,2,7.72,51,62,Not Placed,0.0
+258,Google L3 Interview Process - No Update After Positive Phone Screen?,605,Google,782,2264,1,2,7.77,86,81,Not Placed,0.0
+259,Git Cheat Sheet 📝,81,Unknown,362,1576,4,3,9.49,96,66,Not Placed,0.0
+260,Meta Silicon Infra (E4) Full Loop This Week,233,Meta,160,1398,3,4,6.85,94,78,Not Placed,0.0
+261,Google Interview Preparation,298,Google,1973,1564,4,2,9.08,40,80,Not Placed,0.0
+262,📌📌 Graph Data Structure Best resource for interview [ NOTES + PROBLEMS ]  in C++,332,Unknown,1609,1767,2,1,6.81,77,44,Not Placed,0.0
+263,"Amazon SDE Intern Interview in 10 days, not prepared",127,Amazon,788,1714,0,2,8.2,51,68,Not Placed,0.0
+264,Amazon Notice period,312,Amazon,2121,2164,1,5,7.49,89,76,Not Placed,0.0
+265,Graph Data Structure in C++ (Self Complete Revision Notes + Problems),126,Unknown,1935,1428,1,5,8.06,61,44,Not Placed,0.0
+266,0889. Construct Binary Tree from Preorder and Postorder Traversal,0,Unknown,1544,1466,2,4,8.48,78,52,Not Placed,0.0
+267,Roadmap for Data Structures and Algorithms in C++(2025),120,Unknown,270,1378,0,2,8.99,41,68,Not Placed,0.0
+268,Meta E5 Interview,4,Meta,1621,2168,0,6,6.93,63,83,Not Placed,0.0
+269,Meta,0,Meta,326,2269,3,1,9.6,94,78,Not Placed,0.0
+270,META| Any E4 ASIC Engineer | Infra Silicon Interview Experience?,140,Meta,1741,1955,4,5,9.21,53,48,Not Placed,0.0
+271,"Any ASIC Enginer,Infra Silicon E4 Interview Experience?",17,Unknown,191,1460,4,2,6.54,58,51,Not Placed,0.0
+272,Doordash | Onsite Help,237,Unknown,1261,1380,3,6,9.78,73,81,Not Placed,0.0
+273,MakeMyTrip SSE Interviewer Ghosted,33,Unknown,1419,2279,4,6,9.44,50,97,Not Placed,0.0
+274,Meta E4 US Onsite | Rejected,1494,Meta,1684,2452,2,1,8.9,69,99,Not Placed,0.0
+275,Microsoft OA | SDE 2 | Redmond,204,Microsoft,715,1339,2,5,7.28,63,81,Not Placed,0.0
+276,Meta | Onsite | E4 | US - Passed,1434,Meta,154,1326,1,5,9.4,85,81,Not Placed,0.0
+277,TikTok Frontend Software Engineer Graduate (2025 Start),166,Unknown,2424,1750,0,5,6.03,55,73,Not Placed,0.0
+278,Microsoft OA - failed 1 question,189,Microsoft,1181,1290,4,1,7.73,77,83,Not Placed,0.0
+279,Meta Variants for Random Pick Index (LC398),853,Meta,1743,2477,2,1,8.61,81,48,Not Placed,0.0
+280,Stripe BUG bash,111,Unknown,475,1874,3,3,6.23,57,94,Not Placed,0.0
+281,"Help for upcoming interview for Amazon, Bengaluru IN",190,Amazon,2415,1412,1,6,8.18,97,100,Not Placed,0.0
+282,Binary Tree FAANG Questions,7608,Unknown,587,2091,0,4,8.48,64,88,Not Placed,0.0
+283,BinaryTree FAANG Questions,217,Unknown,519,1255,0,1,6.24,45,82,Not Placed,0.0
+284,🚀 Must Do DSA Topics,61,Unknown,2243,2599,1,5,6.33,85,69,Not Placed,0.0
+285,Amazon Graduate  EMEA loop scheduling,196,Amazon,410,2268,4,4,7.46,82,41,Not Placed,0.0
+286,Permutation vs Combination Basic theory,64,Unknown,196,1290,1,6,6.76,94,89,Not Placed,0.0
+287,Delhivery vs GreyOrange,0,Unknown,1255,2063,2,5,6.18,95,65,Not Placed,0.0
+288,Find Leaves of Binary Tree,177,Unknown,1866,2594,2,1,7.04,43,79,Not Placed,0.0
+289,Google Interview Experience - L4 NOV 2024,425,Google,1213,1794,3,6,7.79,83,95,Not Placed,0.0
+290,Google Engineering Manager - SRE,126,Google,321,2197,3,3,8.26,44,65,Not Placed,0.0
+291,System Design Round at Meta,558,Meta,767,2130,1,1,8.29,96,73,Not Placed,0.0
+292,Amazon SDE-2 (L5) Interview - USA - [ Accepted ],1453,Amazon,523,2138,0,4,8.83,90,48,Not Placed,0.0
+293,Meta Leetcode Interview Lists Inconsistency,636,Meta,1209,1819,3,4,9.41,60,75,Not Placed,0.0
+294,Meta System Design Onsite E4 Infa question + bonus reject story,189,Meta,1685,1926,0,1,8.82,50,61,Not Placed,0.0
+295,Meta | E5 | Phone Screen,413,Meta,307,2248,2,4,9.18,63,50,Not Placed,0.0
+296,Microsoft Interview Process,302,Microsoft,261,1816,1,1,8.72,44,81,Not Placed,0.0
+297,Amazon AWS | SDE-2 | US,543,Amazon,2077,1496,1,6,8.21,88,62,Not Placed,0.0
+298,Meta | Phone Screen | SDE E4/E5 | US,404,Meta,219,2080,2,5,8.77,93,50,Not Placed,0.0
+299,Microsoft revert back time after final round,157,Microsoft,1036,1923,2,3,7.68,55,64,Not Placed,0.0
+300,I am having Microsoft OA. Codility Test List. What question can I expect in the test ?,208,Microsoft,2106,2429,1,3,9.63,92,95,Not Placed,0.0
+301,Meta System Design,68,Meta,1200,1714,0,5,8.53,88,92,Not Placed,0.0
+302,meta intern interview,245,Meta,783,2527,1,5,6.5,95,55,Not Placed,0.0
+303,Google SAD Interview second round help!!,221,Google,1286,1619,0,4,7.51,68,53,Not Placed,0.0
+304,Google Phone Screen Chances,284,Google,456,2066,2,1,8.14,61,95,Not Placed,0.0
+305,Salesforce LMTS interview,228,Unknown,211,1705,3,2,6.59,69,78,Not Placed,0.0
+306,TCS Prime | C1 Grade | Off Campus | India | Interview Experience | [Offer],40,Unknown,1563,1488,2,6,7.26,86,85,Placed,42.5
+307,Cognizant GenC | Python Developer | On Campus | India | Interview Experience | [Offer],36,Unknown,2194,2514,0,1,9.29,57,45,Placed,9.0
+308,Google | Phone Screening | 3 Feb 2025 | L3,337,Google,1664,1566,1,6,7.65,86,52,Not Placed,0.0
+309,Wysa | NodeJS Developer | Off Campus | India | Interview Experience | [Reject],74,Unknown,781,1750,3,2,7.61,99,81,Not Placed,0.0
+310,Wondering about the next rounds,177,Unknown,1639,1901,2,4,9.38,48,67,Not Placed,0.0
+311,How are you all getting shortlisted for Meta Interviews?,575,Meta,2079,1965,4,6,7.24,85,65,Not Placed,0.0
+312,"Bloomberg - Software Engineer (Grad), London",154,Unknown,2357,1973,4,5,8.41,70,81,Not Placed,0.0
+313,Does Meta ask dynamic programming (DP) questions in interviews?,360,Meta,771,2253,4,2,6.89,40,78,Not Placed,0.0
+314,Meta E5 Phone Screen,1263,Meta,151,1964,3,3,7.1,90,80,Not Placed,0.0
+315,Meta E4 Round 1 - Technical Screen,185,Meta,108,1780,2,6,9.44,45,45,Not Placed,0.0
+316,Whiteboard Practice for Interviews?,179,Unknown,1998,1306,4,4,6.68,69,79,Not Placed,0.0
+317,Meta | E4 Infra | Onsite | Reject,617,Meta,100,2172,0,3,7.34,68,86,Not Placed,0.0
+318,Meta E4 Monetization team,570,Meta,498,1726,3,1,9.49,59,91,Not Placed,0.0
+319,Phone Interview Tips for Brex,6,Unknown,204,1538,0,3,7.13,55,49,Not Placed,0.0
+320,Expedia | SDE2,124,Unknown,976,2255,4,3,7.14,88,92,Not Placed,0.0
+321,Meta | Phone Screen,268,Meta,533,1729,1,2,9.16,56,93,Not Placed,0.0
+322,Meta - E5/E6 Screen,675,Meta,2033,1919,3,1,8.64,41,94,Not Placed,0.0
+323,Meta E5 Phone Screening | Bengaluru India,103,Meta,386,1674,3,4,7.7,58,97,Not Placed,0.0
+324,EPAM Lead Data Engineer Interview Experience,77,Unknown,1882,2116,0,2,8.67,92,65,Not Placed,0.0
+325,Meta E4 Team Matching,434,Meta,890,2173,1,3,7.81,66,81,Not Placed,0.0
+326,"Got a Job Offer from a US Startup, Should I Renegotiate My Salary and Equity? Seeking Advice",45,Unknown,780,2296,2,1,8.0,50,72,Placed,36.18
+327,Ethos SDE Fresher (0-1) Interview Preparation: Questions and Topics,1034,Unknown,2266,1975,4,3,6.7,99,74,Not Placed,0.0
+328,Google | Phone screen Round,258,Google,486,1589,0,5,8.67,70,93,Not Placed,0.0
+329,GOOGLE all latest OA and INTERVIEW problems [ 2022- 2024 ],2741,Google,1091,1631,3,6,6.94,69,63,Not Placed,0.0
+330,Amazon OA,825,Amazon,1873,1283,3,5,9.1,58,45,Not Placed,0.0
+331,Salesforce OA,135,Unknown,175,1578,2,1,9.29,84,90,Not Placed,0.0
+332,Google Interview Questions from 2022-2024,29649,Google,968,1853,4,4,9.53,86,63,Not Placed,0.0
+333,Amazon OA Feb 2025,634,Amazon,873,1555,3,2,7.11,69,88,Not Placed,0.0
+334,Salesforce OA questions,178,Unknown,1959,2050,0,5,6.78,70,73,Not Placed,0.0
+335,Sliding Window TOP Questions that must be solved,161,Unknown,1785,2360,3,5,7.95,100,54,Not Placed,0.0
+336,MICROSOFT DRIVE | 15th Feb 2025,362,Microsoft,682,2151,1,4,8.12,45,59,Not Placed,0.0
+337,Meta | Phone Screen,456,Meta,425,2268,4,5,8.22,99,98,Not Placed,0.0
+338,Meta E5 | Phone Screen,312,Meta,1964,1277,0,5,9.13,71,53,Not Placed,0.0
+339,AMAZON SDE OA RESULTS,18,Amazon,1537,2035,1,1,8.44,98,69,Not Placed,0.0
+340,META | Data Engineer | Product Analytics | Tech Screen,1,Meta,1195,2353,1,6,8.35,67,98,Not Placed,0.0
+341,Goldman Sachs | CoderPad | Graphs,208,Unknown,907,1984,3,6,8.73,49,98,Not Placed,0.0
+342,CRED | SDE2,277,Unknown,2025,1371,2,6,9.44,82,97,Not Placed,0.0
+343,Amazon OA Prep Strategy,437,Amazon,934,2143,4,2,8.86,62,71,Not Placed,0.0
+344,Google | L4 | US | Phone + Onsite,248,Google,1805,1659,1,6,7.76,55,91,Not Placed,0.0
+345,Meta | Onsite | SDE E4 | US,4782,Meta,2242,2162,1,4,9.57,40,57,Not Placed,0.0
+346,Meta E4 Interview (iOS Engineer),18,Meta,932,1286,0,6,9.69,46,62,Not Placed,0.0
+347,Need help with Daily Problem of 19-feb-2025,28,Unknown,1697,1936,0,6,7.95,81,86,Not Placed,0.0
+348,Meta | E4 | Phone Screen,238,Meta,120,2170,4,3,8.5,56,53,Not Placed,0.0
+349,META E4 SCREEN,572,Meta,830,1444,3,4,7.02,89,76,Not Placed,0.0
+350,How quickly is the rating updated after a contest?,14,Unknown,1899,1671,4,2,8.92,66,56,Not Placed,0.0
+351,Microsoft l60 offer evaluation and buyback query,143,Microsoft,1918,1348,1,6,7.78,88,100,Placed,18.76
+352,Amazon OA - Question 2 - Batch Packing,509,Amazon,712,1817,2,5,7.49,49,45,Not Placed,0.0
+353,Triangle(120 Leetcode),141,Unknown,2309,2583,3,1,7.53,92,60,Not Placed,0.0
+354,Amazon Front End Engineer 1 Interview Round 2,199,Amazon,1193,1323,3,6,8.9,85,83,Not Placed,0.0
+355,How to appear for LLD round at Amazon?,489,Amazon,1339,1889,3,6,7.36,100,40,Not Placed,0.0
+356,Meta Variant for Missing Ranges (LC163),1485,Meta,855,2035,4,4,9.38,76,99,Not Placed,0.0
+357,50 days badge not received,0,Unknown,223,2067,2,4,7.09,66,81,Not Placed,0.0
+358,Meta | Research ML | USA,350,Meta,504,1544,0,4,6.74,51,67,Not Placed,0.0
+359,Salesforce - FAKE HIRING DRIVE,9,Unknown,645,1828,4,6,8.95,61,62,Not Placed,0.0
+360,Mindbody + classpass interview experience,168,Unknown,2498,2336,3,3,6.37,98,50,Not Placed,0.0
+361,AthenaHealth | MTS | Interview Experience,80,Unknown,1281,1917,3,6,9.27,75,58,Not Placed,0.0
+362,Preapring For Googliness Round,194,Unknown,1644,2168,4,2,7.69,96,67,Not Placed,0.0
+363,OpenAI Machine Learning Engineer,116,Unknown,1899,1293,1,2,8.52,51,43,Not Placed,0.0
+364,Meta E4 Technical Screening,1017,Meta,1982,1898,1,4,6.75,75,80,Not Placed,0.0
+365,Google L4 phone screening round prep,200,Google,2338,2320,2,3,8.2,55,47,Not Placed,0.0
+366,Amazon OA question SDE,19,Amazon,1243,1212,1,4,8.72,94,51,Not Placed,0.0
+367,Google L3 Team Matching - USA,223,Google,2024,2423,1,5,6.8,57,100,Not Placed,0.0
+368,Need Info About Amazon SDE 2 Phone Interview,309,Amazon,1482,1437,4,4,8.03,78,63,Not Placed,0.0
+369,Facebook L4 Phone Screen,369,Unknown,1140,1213,3,3,7.55,97,71,Not Placed,0.0
+370,Randomized Paired Index Generator,40,Unknown,184,2133,4,6,6.32,57,63,Not Placed,0.0
+371,Senior SWE Linkedin phone screen & onsites,394,Unknown,1940,2459,0,6,7.85,76,71,Not Placed,0.0
+372,Meta SWE London Phone Screen,233,Meta,1512,2257,3,2,6.34,83,69,Not Placed,0.0
+373,Meta Screening,699,Meta,100,1891,0,1,7.5,42,61,Not Placed,0.0
+374,Meta Screening,507,Meta,305,2295,3,4,6.2,74,82,Not Placed,0.0
+375,Meta Screening | Product | US,833,Meta,327,2067,2,5,7.4,40,42,Not Placed,0.0
+376,Language Confusion for LLD interviews,81,Unknown,747,2506,3,2,6.99,62,52,Not Placed,0.0
+377,Meta Onsite Experience [E4] Product SWE,554,Meta,1187,2396,2,1,8.97,98,44,Not Placed,0.0
+378,50 Days LeetCode Badge,22,Unknown,2207,1428,0,1,8.48,53,86,Not Placed,0.0
+379,Google L3 Interview Expierence | Full Questions,5618,Google,359,1530,4,5,9.62,80,58,Not Placed,0.0
+380,Amazon OA Question | SDE II,614,Amazon,516,1332,4,1,9.08,46,48,Not Placed,0.0
+381,Minimum Moves to Match Digits,89,Unknown,1141,2336,1,3,8.12,87,81,Not Placed,0.0
+382,Google interview L3,207,Google,1625,1819,0,2,7.38,65,86,Not Placed,0.0
+383,Grab | Senior Software Engineer | Interview Experience,0,Unknown,801,1859,0,5,7.31,62,44,Not Placed,0.0
+384,Google L3 interview help,262,Google,1651,1844,2,5,8.23,54,49,Not Placed,0.0
+385,Dolby Laboratories: Senior applied AI researcher,0,Unknown,525,1657,0,3,8.58,75,73,Not Placed,0.0
+386,🚀 My PhonePe SDE-1 Interview Experience,18,Unknown,390,1744,2,4,8.75,47,60,Not Placed,0.0
+387,Google Interview L3 Question,2466,Google,135,2242,0,3,9.02,84,48,Not Placed,0.0
+388,HM Round rescheduled 3 times in a row. | Linkedin | SSE Role.,226,Unknown,1110,2145,2,3,6.44,65,87,Not Placed,0.0
+389,Removing duplicate nodes in an unsorted linked list,99,Unknown,1554,1776,0,1,9.7,59,59,Not Placed,0.0
+390,Microsoft OA (16/02/2025),252,Microsoft,1033,2047,2,5,8.43,75,86,Not Placed,0.0
+391,AngelOne | SDE 3 | LLD Round,143,Unknown,664,1270,0,3,6.42,90,59,Not Placed,0.0
+392,Anyone received Salesforce OA 2025,146,Unknown,1777,2106,4,5,8.7,61,49,Not Placed,0.0
+393,"Microsoft | SDE1 (L60) |  Bangalore, India",360,Microsoft,2375,1368,2,3,8.21,75,61,Not Placed,0.0
+394,Infosys Specialist Programmer | 2024 | OFFER,0,Unknown,1859,1360,3,4,9.39,46,61,Placed,11.79
+395,HashedIn by Deloitte 2024 | SDE-1| OFFER,0,Unknown,2413,1818,4,4,6.53,60,73,Placed,41.55
+396,Amazon OA Interview Question 1,224,Amazon,482,2112,0,5,9.39,83,85,Not Placed,0.0
+397,Walmart Senior SWE Onsite,13,Walmart,1591,1491,4,6,6.01,47,54,Not Placed,0.0
+398,Got My First Microsoft SE II Frontend Interview (Hyderabad) – What to Expect?,212,Microsoft,107,1927,4,5,9.49,58,40,Not Placed,0.0
+399,Mathworks OA Question - EDG Position,66,Unknown,964,1853,4,4,6.75,62,79,Not Placed,0.0
+400,2375. Construct Smallest Number From DI String,41,Unknown,1965,2570,0,1,7.68,62,43,Not Placed,0.0
+401,Software Engineer Apple Watch,229,Apple,1019,2476,3,6,7.24,93,41,Not Placed,0.0
+402,Bloomberg interview for senior software engineer,4,Unknown,2385,1644,4,6,7.06,50,42,Not Placed,0.0
+403,LinkedIn Onsite round,18,Unknown,1372,1354,1,6,8.57,94,56,Not Placed,0.0
+404,"Name more storage types  than file , DB storage",71,Unknown,1259,1991,1,3,9.11,98,42,Not Placed,0.0
+405,Amazon New Grad SDE 1 | OA | Calculate Max Quality Score,1329,Amazon,1847,1797,4,5,6.99,70,42,Not Placed,0.0
+406,Meta | E4  - System Deisgn,168,Meta,2290,2227,2,5,9.71,68,91,Not Placed,0.0
+407,Delhivery Round1 DSA | SDE2 Backend,61,Unknown,1566,2484,3,1,7.56,82,47,Not Placed,0.0
+408,Google L4 Interview Help,412,Google,962,2062,3,6,7.13,49,75,Not Placed,0.0
+409,Amazon OA Question,613,Amazon,1949,1953,3,1,6.45,70,80,Not Placed,0.0
+410,Google Team Match Questions,361,Google,2313,1434,1,2,8.25,47,84,Not Placed,0.0
+411,1079. Letter Tile Possibilities,40,Unknown,942,2336,4,1,6.97,100,58,Not Placed,0.0
+412,Juspay hiring challenge feb'25,16,Unknown,1624,1453,0,1,6.22,95,68,Not Placed,0.0
+413,Amazon Bar Raiser Round for SDE2,917,Amazon,2338,1203,4,4,6.9,64,43,Not Placed,0.0
+414,Goldman Sachs | CoderPad,16,Unknown,899,2444,4,3,8.18,52,74,Not Placed,0.0
+415,Microsoft OA (16/02/2025),204,Microsoft,461,1467,2,5,6.45,97,65,Not Placed,0.0
+416,Maximize characters to be removed from string with given condition,20,Unknown,1496,1437,1,3,8.42,99,99,Not Placed,0.0
+417,Meta Data Engineering Onsite round,519,Meta,735,2391,2,3,9.11,62,61,Not Placed,0.0
+418,Meta | SWE E4 | London,609,Meta,695,1564,0,6,8.04,92,99,Not Placed,0.0
+419,Datadog Software Engineer - Frontend (EMEA) Interview,248,Unknown,2304,1290,0,4,6.33,72,97,Not Placed,0.0
+420,Meta E5 engineer interview,816,Meta,2345,2540,4,1,8.68,95,92,Not Placed,0.0
+421,Microsoft OA 17-02-2025,337,Microsoft,569,2191,0,4,8.36,79,51,Not Placed,0.0
+422,No Ancestor Subset Hackerrank DE Shaw,139,Unknown,1233,1334,4,6,8.24,94,52,Not Placed,0.0
+423,Meta Variant for Diameter of Binary Tree (LC543),1141,Meta,723,1330,2,5,7.35,66,50,Not Placed,0.0
+424,Google L4 Stuck in Team matching,352,Google,919,2429,4,3,6.88,87,95,Not Placed,0.0
+425,Google | Interview Experience,2693,Google,2306,1277,1,3,8.16,77,59,Not Placed,0.0
+426,Location Solutions | Software Engineer | Remote Offer,140,Unknown,1486,1981,0,2,8.08,46,95,Placed,37.29
+427,Google Recruiter not responding,399,Google,1148,1707,3,5,8.75,77,53,Not Placed,0.0
+428,"[Flexport OA]Solved 3/4, what are the chances of going to the next round?",6,Unknown,501,2209,3,2,6.25,70,55,Not Placed,0.0
+429,Uber Phone Interview,10,Uber,256,2048,1,1,7.65,97,95,Not Placed,0.0
+430,LLD Help - Javascript,404,Unknown,1706,2305,2,5,6.21,47,98,Not Placed,0.0
+431,Tesco  Interview,0,Unknown,2407,1654,1,5,8.47,49,42,Not Placed,0.0
+432,Need quick help on a OS interview question,277,Unknown,2416,1923,3,3,9.6,65,51,Not Placed,0.0
+433,Google Telephone Screening round,928,Google,1418,1785,2,3,6.04,74,79,Not Placed,0.0
+434,Design Distributed Job Scheduler.,388,Unknown,1023,1741,1,4,9.14,86,86,Not Placed,0.0
+435,Goldman Sach Super Day,437,Unknown,1857,1610,3,2,8.42,54,53,Not Placed,0.0
+436,Meta | SWE E4 Infra | US,1268,Meta,1372,1397,0,2,7.63,44,90,Not Placed,0.0
+437,Why designing WhatsApp use queue/Kafka for sending message instead of HTTP?,123,Unknown,1443,2499,0,1,9.22,79,42,Not Placed,0.0
+438,Online Assesment,139,Unknown,1809,1684,3,1,7.4,80,86,Not Placed,0.0
+439,Separated Square I Solution Leet Code BiWeekly Contest 150,56,Unknown,140,2491,2,5,9.19,75,99,Not Placed,0.0
+440,System Design | Frontend | Question,113,Unknown,579,1727,4,1,8.11,61,55,Not Placed,0.0
+441,Goldman Sachs | OA |  Associate SDE-2 | Feb 2025,610,Unknown,1556,1299,3,3,9.55,44,82,Not Placed,0.0
+442,Meta full loop,5,Meta,1863,1282,3,6,9.53,58,83,Not Placed,0.0
+443,Microsoft - SDE 2- Reject,580,Microsoft,1647,1823,0,1,7.63,66,43,Not Placed,0.0
+444,Goldman Superday round cancelled.,17,Unknown,362,2212,1,1,9.49,46,64,Not Placed,0.0
+445,Amazon | SDE-1 | Bangalore | Dec 2024 [ Offer ],15362,Amazon,494,2542,4,6,6.01,43,70,Placed,26.72
+446,LinkedIn SWE OA,343,Unknown,435,2471,1,1,7.15,43,90,Not Placed,0.0
+447,Minimum Cost with different Size,361,Unknown,1813,1665,3,4,9.44,88,92,Not Placed,0.0
+448,Zeta Backend Software Development Engineer 2 Interview Experience (Selected),11,Unknown,289,2382,0,6,6.23,76,43,Placed,32.13
+449,Microstrategy | Online Assessment | SDE,54,Unknown,2464,2084,1,1,6.43,83,71,Not Placed,0.0
+450,Amazon Interview,516,Amazon,411,2259,2,1,6.06,98,79,Not Placed,0.0
+451,what are my google chances,311,Google,581,1924,1,1,8.49,94,70,Not Placed,0.0
+452,What are my paypal chances ?,217,Unknown,1434,1649,4,4,7.59,99,68,Not Placed,0.0
+453,Meta | Screening | SWE E4 Infra | US,919,Meta,2052,2024,3,5,7.68,81,96,Not Placed,0.0
+454,AMAZON SDEI Intern 2025 Final Round,29,Amazon,343,1647,2,5,8.12,40,48,Not Placed,0.0
+455,IBM Coding Assessment Internship Summer 2025,110,Unknown,2376,2168,3,6,9.34,73,83,Not Placed,0.0
+456,Interview experience | L60,297,Unknown,173,2017,4,4,8.31,43,88,Not Placed,0.0
+457,Mastering Recursion: Counting Subsequences with the Pick/Not Pick Pattern 🚀,61,Unknown,515,1748,0,2,9.0,54,75,Not Placed,0.0
+458,Microsoft hiring drive 14th Feb,233,Microsoft,2212,2091,2,1,8.13,79,51,Not Placed,0.0
+459,Meta E4 - USA - Approved,134,Meta,636,2070,1,3,8.76,46,41,Not Placed,0.0
+460,Uber Interview,15,Uber,1366,2196,1,3,8.38,54,49,Not Placed,0.0
+461,Amazon SDE2 OA first round,255,Amazon,744,1832,1,3,9.56,72,60,Not Placed,0.0
+462,Meta Variant for Copy List Random Pointer (LC138),430,Meta,1748,2178,3,2,7.1,44,96,Not Placed,0.0
+463,Myntra SDE 1 Backend | Interview Experience,2835,Unknown,1159,1989,3,6,7.03,96,50,Not Placed,0.0
+464,Team Matching Round in Google,521,Google,1998,1438,3,3,9.1,83,53,Not Placed,0.0
+465,META | E5 | Screening,443,Meta,2445,1562,0,6,6.11,60,62,Not Placed,0.0
+466,Compilation of Meta product design/architecture Round,247,Meta,781,1320,1,3,7.91,54,94,Not Placed,0.0
+467,Tips on how to prepare for MS interviews,181,Unknown,1651,2504,2,4,6.29,93,56,Not Placed,0.0
+468,OS (Operating System) short revision || Interview preparation,45,Unknown,2159,1362,4,6,8.35,86,53,Not Placed,0.0
+469,Meta | Onsite | Software Engineer E4 | USA | Offer,3666,Meta,2206,1674,0,4,9.5,45,89,Placed,47.21
+470,Amazon | Phone | Missing number,385,Amazon,2032,2294,0,3,7.93,74,93,Not Placed,0.0
+471,Got an OA for Amazon Frontend Engineer Role – What to Expect?,176,Amazon,1830,2376,3,3,6.55,44,42,Not Placed,0.0
+472,Flipkart | SDE-2 | Bangalore | Jan 2025 [Offer],536,Unknown,1976,1570,0,3,9.76,50,71,Placed,6.54
+473,Problems for me to solved/revisit,50,Unknown,449,2201,4,1,8.22,92,56,Not Placed,0.0
+474,META | E5 MLE | screen,256,Meta,124,1393,1,4,8.39,60,97,Not Placed,0.0
+475,Amazon SDE2 Interview Question,982,Amazon,1237,2323,3,5,9.25,72,91,Not Placed,0.0
+476,META | Software Engineer (Product) E5 | Full Loop,864,Meta,784,1500,0,3,9.62,85,97,Not Placed,0.0
+477,Amazon interview SDE 2,1243,Amazon,1603,1969,0,5,8.11,74,77,Not Placed,0.0
+478,Meta PE Intern Screening,0,Meta,1059,2099,0,3,6.11,88,43,Not Placed,0.0
+479,Reddit tech screen - senior software engineer,221,Unknown,1231,1814,1,5,7.31,61,49,Not Placed,0.0
+480,Google hiring committee chances,465,Google,561,1245,4,4,6.78,94,90,Not Placed,0.0
+481,Zeta | Virtual | Avoid Flood in City | SDE-2,1,Unknown,335,2340,1,1,9.44,91,63,Not Placed,0.0
+482,Amazon System Development Engineer L4,231,Amazon,719,2306,2,5,9.08,48,100,Not Placed,0.0
+483,META | Software Engineer (Product) E5 | Screening,1711,Meta,1102,1781,3,5,8.39,56,57,Not Placed,0.0
+484,Meta Mid-level engineer role,205,Meta,2214,1814,1,6,8.1,100,63,Not Placed,0.0
+485,Waymo Data Engineer,129,Unknown,1402,1275,4,4,6.95,57,61,Not Placed,0.0
+486,SDE | Waffor | Interview Question need Optimal Approach,90,Unknown,2049,2367,2,3,7.28,50,66,Not Placed,0.0
+487,Amazon SDE 2,442,Amazon,1743,2269,4,1,9.76,89,93,Not Placed,0.0
+488,How to Approach Job Searching in Canada as a Software Developer?,16,Unknown,951,2211,3,5,9.27,43,95,Not Placed,0.0
+489,Amazon OA 2025,725,Amazon,1660,1282,1,4,6.71,56,46,Not Placed,0.0
+490,Amazon Third Round Interview Experience | Fresher | SDE - 1 | India,1068,Amazon,750,1230,3,4,6.23,88,69,Not Placed,0.0
+491,Meta E5 team matching eta,536,Meta,978,1310,0,1,9.6,84,58,Not Placed,0.0
+492,Demonware Activision OA,54,Unknown,1057,2405,2,1,7.87,54,53,Not Placed,0.0
+493,Google Interview Feedback || L3,475,Google,166,1852,4,4,7.26,56,93,Not Placed,0.0
+494,OA Problem,449,Unknown,2163,1533,3,5,6.79,83,62,Not Placed,0.0
+495,Facebook | System Design | Single Node Design,248,Unknown,453,1945,0,3,6.15,60,64,Not Placed,0.0
+496,Paypal (SDE3 - Bengaluru) vs Microsoft (SDE 2 - Hyderabad) offer evaluation,307,Microsoft,403,1587,0,5,7.27,58,80,Placed,17.05
+497,OFFER DISCUSS || PORTER VS HIVE PRO,0,Unknown,188,2121,1,5,6.95,51,57,Placed,28.61
+498,LinkedIn SWE Phone Screen USA,395,Unknown,1671,2114,1,2,9.32,54,60,Not Placed,0.0
+499,Rokt Loop Interview,0,Unknown,1425,2505,3,5,6.38,46,74,Not Placed,0.0
+500,Paypal OA,246,Unknown,1124,1540,0,6,8.31,93,66,Not Placed,0.0
