@@ -63,7 +63,9 @@ function App() {
       ...prev,
       dsa: "",
       projects: "",
-      mock: ""
+      mock: "",
+      internships: "",
+      hackathons: ""
     }))
   }
 
@@ -99,7 +101,6 @@ function App() {
     })
 
     setResult(res.data)
-    resetFresherForm()
   }
   const handleEdit = (s) => {
     setMode("senior")
@@ -187,7 +188,8 @@ function App() {
 
             <button onClick={() => {
               setMode("senior")
-              resetFresherForm()  // clear fresher fields
+              resetFresherForm()
+              setResult(null)
             }}>
               Senior
             </button>
@@ -273,14 +275,38 @@ function App() {
 
           {result && (
             <div className="result">
-              <h2>Score: {result.score}</h2>
 
-              <h3>Suggestions:</h3>
-              <ul>
-                {result.suggestions.map((s, i) => (
-                  <li key={i}>{s}</li>
-                ))}
-              </ul>
+              <h2>Placement Readiness Report</h2>
+
+              <div className="score-container">
+                <div className="score-number">{result.score}/100</div>
+
+                <div className="score-bar">
+                  <div
+                    className="score-fill"
+                    style={{ width: `${result.score}%` }}
+                  ></div>
+                </div>
+
+                <div className="status">
+                  {result.score >= 85
+                    ? "🟢 Placement Ready"
+                    : result.score >= 65
+                      ? "🟡 Almost Ready"
+                      : "🔴 Needs More Preparation"}
+                </div>
+              </div>
+
+              <div className="suggestion-box">
+                <h3>Recommendations</h3>
+
+                <ul>
+                  {result.suggestions.map((s, i) => (
+                    <li key={i}>{s}</li>
+                  ))}
+                </ul>
+              </div>
+
             </div>
           )}
         </div>
