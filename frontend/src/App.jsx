@@ -47,6 +47,7 @@ function App() {
   const [mode, setMode] = useState("fresher")
   const [editId, setEditId] = useState(null)
   const [form, setForm] = useState({
+    placed: "",
     company: "",
     preparationJourney: "",
     dsaExperience: "",
@@ -72,6 +73,7 @@ function App() {
   const resetSeniorForm = () => {
     setForm((prev) => ({
       ...prev,
+      placed: "",
       company: "",
       preparationJourney: "",
       dsaExperience: "",
@@ -107,6 +109,7 @@ function App() {
     setEditId(s._id)
 
     setForm({
+      placed: s.placed || "",
       company: s.company || "",
       preparationJourney: s.preparationJourney || "",
       dsaExperience: s.dsaExperience || "",
@@ -122,6 +125,7 @@ function App() {
     if (editId) {
       // UPDATE
       await axios.put(`http://localhost:5000/api/senior-plan/${editId}`, {
+        placed: form.placed,
         company: form.company,
         preparationJourney: form.preparationJourney,
         dsaExperience: form.dsaExperience,
@@ -134,6 +138,7 @@ function App() {
     } else {
       // CREATE
       await axios.post("http://localhost:5000/api/senior-plan", {
+        placed: form.placed,
         company: form.company,
         preparationJourney: form.preparationJourney,
         dsaExperience: form.dsaExperience,
@@ -209,6 +214,17 @@ function App() {
 
           {mode === "senior" && (
             <form onSubmit={handleSeniorSubmit}>
+
+              <select
+                className="input"
+                name="placed"
+                value={form.placed}
+                onChange={handleChange}>
+
+                <option value="">Placement Status</option>
+                <option value="placed">Placed</option>
+                <option value="not_placed">Not Placed</option>
+              </select>
 
               <input
                 className="input"
@@ -342,8 +358,16 @@ function App() {
                     <p className="posted-text">Shared Placement Experience</p>
                   </div>
 
-                  <span className="experience-badge">
-                    Experience
+                  <span
+                    className={
+                      s.placed === "placed"
+                        ? "placed-badge"
+                        : "not-placed-badge"
+                    }
+                  >
+                    {s.placed === "placed"
+                      ? "Placed"
+                      : "Not Placed"}
                   </span>
                 </div>
 

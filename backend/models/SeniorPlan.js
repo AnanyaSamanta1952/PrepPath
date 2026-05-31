@@ -2,6 +2,8 @@ const mongoose = require("mongoose")
 
 const seniorPlanSchema = new mongoose.Schema({
 
+    placed: String,
+
     company: String,
 
     preparationJourney: String,

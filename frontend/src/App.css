@@ -32,17 +32,16 @@ body {
   display: flex;
   gap: 28px;
   padding: 30px;
-  align-items: flex-start;
-
-  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* LEFT PANEL */
 
 .left {
   width: 35%;
-  position: sticky;
-  top: 20px;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .card {
@@ -160,6 +159,9 @@ select:focus {
 
 .right {
   width: 65%;
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 10px;
 }
 
 .experience-section h2 {
@@ -203,6 +205,7 @@ select:focus {
   .left,
   .right {
     width: 100%;
+    height: auto;
   }
 
   .left {
@@ -450,4 +453,39 @@ select.input {
   margin-bottom: 10px;
   line-height: 1.7;
   color: #475569;
+}
+
+.left::-webkit-scrollbar,
+.right::-webkit-scrollbar {
+  width: 6px;
+}
+
+/*hide ugly scrollbars */
+.left::-webkit-scrollbar-thumb,
+.right::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.left::-webkit-scrollbar-track,
+.right::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.placed-badge {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.not-placed-badge {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
 }
