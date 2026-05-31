@@ -46,6 +46,7 @@ function App() {
   const [seniors, setSeniors] = useState([])
   const [mode, setMode] = useState("fresher")
   const [editId, setEditId] = useState(null)
+  const [showEditModal, setShowEditModal] = useState(false)
   const [form, setForm] = useState({
     placed: "",
     company: "",
@@ -105,7 +106,6 @@ function App() {
     setResult(res.data)
   }
   const handleEdit = (s) => {
-    setMode("senior")
     setEditId(s._id)
 
     setForm({
@@ -118,50 +118,64 @@ function App() {
       mockExperience: s.mockExperience || "",
       tips: s.tips || ""
     })
+
+    setShowEditModal(true)
   }
   const handleSeniorSubmit = async (e) => {
     e.preventDefault()
 
-    if (editId) {
-      // UPDATE
-      await axios.put(`http://localhost:5000/api/senior-plan/${editId}`, {
-        placed: form.placed,
-        company: form.company,
-        preparationJourney: form.preparationJourney,
-        dsaExperience: form.dsaExperience,
-        interviewExperience: form.interviewExperience,
-        projectExperience: form.projectExperience,
-        mockExperience: form.mockExperience,
-        tips: form.tips
-      })
+    try {
+      if (editId) {
+        await axios.put(`http://localhost:5000/api/senior-plan/${editId}`, {
+          placed: form.placed,
+          company: form.company,
+          preparationJourney: form.preparationJourney,
+          dsaExperience: form.dsaExperience,
+          interviewExperience: form.interviewExperience,
+          projectExperience: form.projectExperience,
+          mockExperience: form.mockExperience,
+          tips: form.tips
+        })
 
-    } else {
-      // CREATE
-      await axios.post("http://localhost:5000/api/senior-plan", {
-        placed: form.placed,
-        company: form.company,
-        preparationJourney: form.preparationJourney,
-        dsaExperience: form.dsaExperience,
-        interviewExperience: form.interviewExperience,
-        projectExperience: form.projectExperience,
-        mockExperience: form.mockExperience,
-        tips: form.tips
-      })
+        await Swal.fire({
+          title: "Updated!",
+          text: "Experience updated successfully.",
+          icon: "success",
+          timer: 1500,
+          showConfirmButton: false
+        })
 
-      await Swal.fire({
-        title: "Success!",
-        text: editId ? "Updated successfully!" : "Senior data added!",
-        icon: "success",
-        timer: 1500,
-        showConfirmButton: false
-      })
+        setShowEditModal(false)
+        setEditId(null)
+        resetSeniorForm()
+      } else {
+        await axios.post("http://localhost:5000/api/senior-plan", {
+          placed: form.placed,
+          company: form.company,
+          preparationJourney: form.preparationJourney,
+          dsaExperience: form.dsaExperience,
+          interviewExperience: form.interviewExperience,
+          projectExperience: form.projectExperience,
+          mockExperience: form.mockExperience,
+          tips: form.tips
+        })
+
+        await Swal.fire({
+          title: "Success!",
+          text: "Senior data added!",
+          icon: "success",
+          timer: 1500,
+          showConfirmButton: false
+        })
+      }
+
+      resetSeniorForm()
+      fetchSeniors()
+
+    } catch (err) {
+      Swal.fire("Error", "Something went wrong", "error")
     }
-
-    setEditId(null)
-    resetSeniorForm()
-    fetchSeniors()
   }
-
   useEffect(() => {
     fetchSeniors()
   }, [])
@@ -283,7 +297,7 @@ function App() {
               />
 
               <button className="button" type="submit">
-                {editId ? "Update Experience" : "Share Experience"}
+                Share Experience
               </button>
 
             </form>
@@ -402,12 +416,15 @@ function App() {
                 </div>
 
                 <div className="actions">
-                  <button className="edit-btn" onClick={() => handleEdit(s)}>
+                  <button type="button" className="edit-btn" onClick={() => handleEdit(s)}>
                     Edit
                   </button>
 
-                  <button className="delete-btn" onClick={() => handleDelete(s._id)}>
-                    Delete
+                  <button
+                    type="button"
+                    className="delete-btn"
+                    onClick={() => handleDelete(s._id)}>
+                      Delete
                   </button>
                 </div>
 
@@ -416,6 +433,108 @@ function App() {
         </div>
 
       </div>
+
+      {
+        showEditModal && (
+          <div className="modal-overlay" onClick={() => {
+            setShowEditModal(false)
+            setEditId(null)
+          }}>
+            <div className="modal" onClick={(e) => e.stopPropagation()}>
+
+              <h2>Edit Experience</h2>
+
+              <form onSubmit={handleSeniorSubmit}>
+
+                <select
+                  className="input"
+                  name="placed"
+                  value={form.placed}
+                  onChange={handleChange}
+                >
+                  <option value="">Placement Status</option>
+                  <option value="placed">Placed</option>
+                  <option value="not_placed">Not Placed</option>
+                </select>
+
+                <input
+                  className="input"
+                  name="company"
+                  value={form.company}
+                  onChange={handleChange}
+                />
+
+                <textarea
+                  className="textarea"
+                  name="preparationJourney"
+                  value={form.preparationJourney}
+                  placeholder="Preparation Journey"
+                  onChange={handleChange}
+                />
+
+                <textarea
+                  className="textarea"
+                  name="dsaExperience"
+                  value={form.dsaExperience}
+                  placeholder="DSA Experience"
+                  onChange={handleChange}
+                />
+
+                <textarea
+                  className="textarea"
+                  name="interviewExperience"
+                  value={form.interviewExperience}
+                  placeholder="Interview Experience"
+                  onChange={handleChange}
+                />
+
+                <textarea
+                  className="textarea"
+                  name="projectExperience"
+                  value={form.projectExperience}
+                  placeholder="Project Experience"
+                  onChange={handleChange}
+                />
+
+                <textarea
+                  className="textarea"
+                  name="mockExperience"
+                  value={form.mockExperience}
+                  placeholder="Mock Experience"
+                  onChange={handleChange}
+                />
+
+                <textarea
+                  className="textarea"
+                  name="tips"
+                  value={form.tips}
+                  placeholder="Tips"
+                  onChange={handleChange}
+                />
+
+                <div className="modal-buttons">
+                  <button type="submit" className="edit-btn">
+                    Update
+                  </button>
+
+                  <button
+                    type="button"
+                    className="delete-btn"
+                    onClick={() => {
+                      setShowEditModal(false)
+                      setEditId(null)
+                    }}
+                  >
+                    Cancel
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        )
+      }
 
     </div >
   )
