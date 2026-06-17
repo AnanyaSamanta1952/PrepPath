@@ -2,6 +2,11 @@ const mongoose = require("mongoose")
 
 const seniorPlanSchema = new mongoose.Schema({
 
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User"
+    },
+
     placed: String,
 
     company: String,

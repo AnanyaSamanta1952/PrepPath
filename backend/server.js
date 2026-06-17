@@ -1,10 +1,12 @@
+require("dotenv").config()
+
 const express = require("express")
 const cors = require("cors")
-const bodyParser=require("body-parser")
 const connectDB=require('./config/db')
 const seniorRoutes = require("./routes/seniorRoutes")
 const fresherRoutes = require("./routes/fresherRoutes")
 const analysisRoutes = require("./routes/analysisRoutes")
+const authRoutes = require("./routes/authRoutes")
 
 const app=express();
 
@@ -12,6 +14,7 @@ connectDB()
 
 app.use(cors())
 app.use(express.json())
+app.use("/api/auth", authRoutes)
 app.use("/api", seniorRoutes)
 app.use("/api", fresherRoutes)
 app.use("/api", analysisRoutes)

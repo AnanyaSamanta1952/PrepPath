@@ -17,19 +17,15 @@ body {
 
 body {
   margin: 0;
+  min-height: 100vh;
   background: #f3f4f6;
   color: #111827;
   overflow-x: hidden;
 }
 
-body {
-  min-height: 100vh;
-  background-color: #f3f4f6;
-}
-
 #root,
 .main {
-  width: 100vw;
+  width: 100%;
 }
 
 .main {
@@ -41,7 +37,6 @@ body {
 }
 
 /* LEFT PANEL */
-
 .left {
   width: 35%;
   height: 100%;
@@ -59,7 +54,8 @@ body {
   font-size: 34px;
   font-weight: 700;
   color: #111827;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
+  text-align: center;
   letter-spacing: -1px;
 }
 
@@ -117,7 +113,6 @@ select:focus {
 }
 
 /* BUTTON */
-
 .button {
   width: 100%;
   padding: 14px;
@@ -137,13 +132,6 @@ select:focus {
 
 /* RESULT */
 
-.result {
-  margin-top: 24px;
-  background: #eff6ff;
-  border-radius: 12px;
-  padding: 18px;
-}
-
 .result h2 {
   color: #1d4ed8;
   margin-bottom: 10px;
@@ -160,7 +148,6 @@ select:focus {
 }
 
 /* RIGHT PANEL */
-
 .right {
   width: 65%;
   height: 100%;
@@ -175,15 +162,12 @@ select:focus {
 }
 
 /* EXPERIENCE CARD */
-
 .experience-card {
   background: white;
   border-radius: 16px;
   padding: 22px;
   margin-bottom: 18px;
-
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-
   transition: 0.2s ease;
 }
 
@@ -196,7 +180,9 @@ select:focus {
 .actions {
   display: flex;
   gap: 12px;
-  margin-top: 20px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid #e5e7eb;
 }
 
 /* RESPONSIVE */
@@ -219,13 +205,6 @@ select:focus {
 
 /* MODERN EXPERIENCE CARD */
 
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 18px;
-}
-
 .posted-text {
   color: #6b7280;
   font-size: 14px;
@@ -246,7 +225,7 @@ select:focus {
   border-left: 4px solid #2563eb;
   padding: 18px;
   border-radius: 12px;
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 .tips-box h4 {
@@ -331,12 +310,6 @@ select.input {
   color: #374151;
 }
 
-.tips-box {
-  margin-top: 18px;
-  padding-top: 14px;
-  border-top: 1px solid #e5e7eb;
-}
-
 .tips-box h4 {
   font-size: 15px;
   color: #2563eb;
@@ -379,12 +352,6 @@ select.input {
   border-radius: 999px;
   font-size: 13px;
   font-weight: 600;
-}
-
-.actions {
-  margin-top: 24px;
-  padding-top: 18px;
-  border-top: 1px solid #e5e7eb;
 }
 
 .edit-btn,
@@ -499,27 +466,9 @@ select.input {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-  z-index: 999;
-}
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  background: rgba(0, 0, 0, 0.5);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   z-index: 999;
 }
 
@@ -527,13 +476,10 @@ select.input {
   background: white;
   width: 700px;
   max-width: 90%;
-
   max-height: 90vh;
   overflow-y: auto;
-
   border-radius: 16px;
   padding: 25px;
-
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -545,4 +491,72 @@ select.input {
   display: flex;
   gap: 12px;
   margin-top: 20px;
+}
+
+/* ---------- AUTH ---------- */
+.auth-card {
+  max-width: 500px;
+  margin: auto;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  padding-right: 70px;
+}
+
+.eye {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563eb;
+  cursor: pointer;
+  user-select: none;
+}
+
+.eye:hover {
+  color: #1d4ed8;
+}
+
+/* auth switch */
+.auth-switch {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.auth-switch button {
+  flex: 1;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  background: #e5e7eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.auth-switch button:hover {
+  background: #2563eb;
+  color: white;
+}
+
+.auth-switch {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.auth-switch button {
+  flex: 1;
+}
+
+.auth-switch button.active {
+  background: #2563eb;
+  color: white;
 }

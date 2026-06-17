@@ -1,16 +1,30 @@
-//Stores login + role
-const mongoose=require("mongoose")
+const mongoose = require("mongoose")
 
-const userSchema=new mongoose.Schema({
-    name:String,
-    email:String,
-    password:String,
-    role:{
-        type:String,
-        enum:["senior","fresher"]
+const userSchema = new mongoose.Schema(
+{
+    name: {
+        type: String,
+        required: true
     },
-    college:String,
-    branch:String
-})
 
-module.exports=mongoose.model("User",userSchema)
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+
+    password: {
+        type: String,
+        required: true
+    },
+
+    college: String,
+
+    branch: String
+},
+{
+    timestamps: true
+}
+)
+
+module.exports = mongoose.model("User", userSchema)
