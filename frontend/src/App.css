@@ -32,7 +32,7 @@ body {
   min-height: 100vh;
   display: flex;
   gap: 40px;
-  padding: 80px 40px 40px;
+  padding: 40px 40px 40px;
   align-items: flex-start;
   justify-content: center;
 }
