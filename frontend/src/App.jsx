@@ -102,6 +102,10 @@ function App() {
     email: "",
     password: ""
   })
+
+  const [showPassword, setShowPassword] =
+    useState(false)
+
   console.log("RENDER:", {
     mode,
     isLoggedIn,
@@ -347,7 +351,7 @@ function App() {
 
         <div className="card">
 
-          <h1>PrepPath</h1>
+          <h1 className="title">PrepPath</h1>
 
           <div className="auth-switch">
 
@@ -644,10 +648,14 @@ function App() {
                 />
 
                 <input
-                  type="password"
+                  type={showPassword ? "text" : "password"}
+
                   className="input"
+
                   placeholder="Password"
+
                   value={loginData.password}
+
                   onChange={(e) =>
                     setLoginData({
                       ...loginData,
@@ -655,6 +663,19 @@ function App() {
                     })
                   }
                 />
+
+                <span
+                  className="eye"
+
+                  onClick={() =>
+                    setShowPassword(
+                      !showPassword
+                    )
+                  }
+                >
+                  {showPassword ? "👁️" : "👁"}
+
+                </span>
 
                 <button
                   className="button"
