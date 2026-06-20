@@ -72,6 +72,17 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] =
     useState(!!localStorage.getItem("token"))
 
+  const [user, setUser] = useState(
+    JSON.parse(
+      localStorage.getItem("user")
+    ) || {
+      name: "User",
+      email: "",
+      college: "",
+      branch: ""
+    }
+  )
+
   const [authMode, setAuthMode] =
     useState("login")
 
@@ -91,11 +102,20 @@ function App() {
     useState(false)
 
   useEffect(() => {
-    const token = localStorage.getItem("token")
-
+    const token =
+      localStorage.getItem("token")
     if (token) {
       setIsLoggedIn(true)
+      const storedUser =
+        localStorage.getItem("user")
+      if (storedUser) {
+        setUser(
+          JSON.parse(storedUser)
+        )
+      }
+
     }
+
   }, [])
 
   const [loginData, setLoginData] = useState({
@@ -104,6 +124,10 @@ function App() {
   })
 
   const [showPassword, setShowPassword] =
+    useState(false)
+
+  const [showProfile, setShowProfile] = useState(false)
+  const [openDashboard, setOpenDashboard] =
     useState(false)
 
   console.log("RENDER:", {
@@ -164,6 +188,16 @@ function App() {
       )
 
       localStorage.setItem("token", res.data.token)
+      localStorage.setItem(
+        "user",
+        JSON.stringify(
+          res.data.user
+        )
+      )
+
+      setUser(
+        res.data.user
+      )
 
       setIsLoggedIn(true)
       setMode("senior")
@@ -344,17 +378,11 @@ function App() {
   }
 
   return (
-
     !isLoggedIn ? (
-
       <div className="auth-container">
-
         <div className="card">
-
           <h1 className="title">PrepPath</h1>
-
           <div className="auth-switch">
-
             <button
               type="button"
               className={
@@ -410,13 +438,9 @@ function App() {
                       ? "text"
                       : "password"
                   }
-
                   className="input"
-
                   placeholder="Password"
-
                   value={loginData.password}
-
                   onChange={(e) =>
                     setLoginData({
                       ...loginData,
@@ -481,13 +505,9 @@ function App() {
                       ? "text"
                       : "password"
                   }
-
                   className="input"
-
                   placeholder="Password"
-
                   value={signupData.password}
-
                   onChange={(e) =>
                     setSignupData({
                       ...signupData,
@@ -498,7 +518,6 @@ function App() {
 
                 <span
                   className="eye"
-
                   onClick={() =>
                     setShowSignupPassword(
                       !showSignupPassword
@@ -549,6 +568,142 @@ function App() {
     ) : (
 
       <div className="main">
+        <div className="top-profile">
+          <button
+            className="profile-btn"
+            onClick={() =>
+              setShowProfile(
+                !showProfile
+              )
+            }
+          >
+
+            👤
+
+          </button>
+          {showProfile && (
+            <div
+              className="profile-overlay"
+              onClick={() => setShowProfile(false)}
+            >
+              <div className="profile-menu" onClick={(e) => e.stopPropagation()}>
+                {/* CLOSE BUTTON */}
+                <button
+                  className="close-profile"
+                  onClick={() => setShowProfile(false)}
+                >
+                  ✕
+                </button>
+
+                <div className="profile-top">
+                  <div className="profile-avatar">
+                    {user?.name?.[0] || "U"}
+                  </div>
+
+                  <div>
+                    <h4>
+                      {user?.name || "User"}
+                    </h4>
+
+                    <p>
+                      {user?.email}
+                    </p>
+
+                  </div>
+                </div>
+
+                <button
+                  className="menu-btn"
+                  onClick={() => {
+                    setOpenDashboard(true)
+                    setShowProfile(false)
+                  }}
+                >
+                  Profile
+                </button>
+
+                <button
+                  className="logout-menu"
+                  onClick={() => {
+                    localStorage.clear()
+                    setIsLoggedIn(false)
+                    setShowProfile(false)
+                    setOpenDashboard(false)
+                  }}
+
+                >
+                  Logout
+                </button>
+
+              </div>
+            </div>
+          )}
+
+        </div>
+
+        {openDashboard && (
+          <div
+            className="profile-dashboard"
+            onClick={() => setOpenDashboard(false)}
+          >
+
+            <div
+              className="dashboard-box"
+              onClick={(e) => e.stopPropagation()}
+            >
+
+              {/* CLOSE BUTTON */}
+              <button
+                className="close-dashboard"
+                onClick={() => setOpenDashboard(false)}
+              >
+                ✕
+              </button>
+
+              <div className="dashboard-avatar">
+                {user?.name?.[0] || "U"}
+              </div>
+
+              <h2>{user?.name}</h2>
+
+              <p className="dashboard-mail">
+                {user?.email}
+              </p>
+
+              <div className="dashboard-grid">
+
+                <div>
+                  <label>College</label>
+                  <p>{user?.college || "Not Added"}</p>
+                </div>
+
+                <div>
+                  <label>Branch</label>
+                  <p>{user?.branch || "Not Added"}</p>
+                </div>
+
+                <div>
+                  <label>Mode</label>
+                  <p>{mode}</p>
+                </div>
+
+              </div>
+
+              <button
+                className="logout-btn"
+                onClick={() => {
+                  localStorage.clear()
+                  setOpenDashboard(false)
+                  setIsLoggedIn(false)
+                }}
+              >
+                Logout
+              </button>
+
+            </div>
+
+          </div>
+        )}
 
         {/* LEFT SIDE */}
         <div className="left">
@@ -560,57 +715,37 @@ function App() {
             <p className="subtitle">
               Placement Preparation & Experience Portal
             </p>
-            <div className="subtitle">
-
-              {isLoggedIn && (
-                <button
-                  className="delete-btn"
-                  onClick={() => {
-                    localStorage.removeItem("token")
-
-                    setIsLoggedIn(false)
-                    setMode("fresher")
-
-                    // CLEAR ALL STATE
-                    setLoginData({ email: "", password: "" })
-                    setSignupData({
-                      name: "",
-                      email: "",
-                      password: "",
-                      college: "",
-                      branch: ""
-                    })
-                    setForm({})
-                    setResult(null)
-                    setSeniors([])
-                  }}
-                >
-                  Logout
-                </button>
-              )}
-
-              <p>
-                Learn from real placement journeys and track your preparation.
-              </p>
-
-            </div>
 
             <div className="toggle">
-              <div style={{
-                display: "flex",
-                gap: "10px",
-                marginBottom: "20px"
-              }}>
+              <div className="mode-switch">
                 <button
                   type="button"
-                  onClick={() => setMode("fresher")}
+                  onClick={() =>
+                    setMode("fresher")
+                  }
+                  className={
+                    mode === "fresher"
+                      ?
+                      "active"
+                      :
+                      ""
+                  }
                 >
                   Fresher
                 </button>
 
                 <button
                   type="button"
-                  onClick={() => setMode("senior")}
+                  onClick={() =>
+                    setMode("senior")
+                  }
+                  className={
+                    mode === "senior"
+                      ?
+                      "active"
+                      :
+                      ""
+                  }
                 >
                   Senior
                 </button>
@@ -649,13 +784,9 @@ function App() {
 
                 <input
                   type={showPassword ? "text" : "password"}
-
                   className="input"
-
                   placeholder="Password"
-
                   value={loginData.password}
-
                   onChange={(e) =>
                     setLoginData({
                       ...loginData,
