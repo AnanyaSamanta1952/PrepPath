@@ -138,19 +138,13 @@ function App() {
 
   const companies = [...new Set(seniors.map(s => s.company))]
   const resetFresherForm = () => {
-    setForm((prev) => ({
-      ...prev,
+    setForm({
       dsa: "",
       projects: "",
       mock: "",
       internships: "",
-      hackathons: ""
-    }))
-  }
+      hackathons: "",
 
-  const resetSeniorForm = () => {
-    setForm((prev) => ({
-      ...prev,
       placed: "",
       company: "",
       preparationJourney: "",
@@ -159,7 +153,26 @@ function App() {
       projectExperience: "",
       mockExperience: "",
       tips: ""
-    }))
+    })
+  }
+
+  const resetSeniorForm = () => {
+    setForm({
+      dsa: "",
+      projects: "",
+      mock: "",
+      internships: "",
+      hackathons: "",
+
+      placed: "",
+      company: "",
+      preparationJourney: "",
+      dsaExperience: "",
+      interviewExperience: "",
+      projectExperience: "",
+      mockExperience: "",
+      tips: ""
+    })
   }
 
   const handleChange = (e) => {
@@ -725,33 +738,29 @@ function App() {
             <div className="toggle">
               <div className="mode-switch">
                 <button
-                  type="button"
-                  onClick={() =>
+                  className={mode === "fresher" ? "active" : ""}
+                  onClick={() => {
                     setMode("fresher")
-                  }
-                  className={
-                    mode === "fresher"
-                      ?
-                      "active"
-                      :
-                      ""
-                  }
+
+                    // clear senior fields
+                    resetSeniorForm()
+
+                    setResult(null)
+                  }}
                 >
                   Fresher
                 </button>
 
                 <button
-                  type="button"
-                  onClick={() =>
+                  className={mode === "senior" ? "active" : ""}
+                  onClick={() => {
                     setMode("senior")
-                  }
-                  className={
-                    mode === "senior"
-                      ?
-                      "active"
-                      :
-                      ""
-                  }
+
+                    // clear fresher fields
+                    resetFresherForm()
+
+                    setResult(null)
+                  }}
                 >
                   Senior
                 </button>
