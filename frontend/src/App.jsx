@@ -53,7 +53,7 @@ function App() {
 
   const [companyFilter, setCompanyFilter] = useState("")
   const [seniors, setSeniors] = useState([])
-  const [mode, setMode] = useState("fresher")
+  const [mode, setMode] = useState("")
   const [editId, setEditId] = useState(null)
   const [showEditModal, setShowEditModal] = useState(false)
   const [form, setForm] = useState({
@@ -684,7 +684,13 @@ function App() {
 
                 <div>
                   <label>Mode</label>
-                  <p>{mode}</p>
+                  <p>
+                    {
+                      mode
+                        ? mode.charAt(0).toUpperCase() + mode.slice(1)
+                        : "Not Selected"
+                    }
+                  </p>
                 </div>
 
               </div>
