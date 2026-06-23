@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import './App.css'
 import Swal from "sweetalert2"
 import "animate.css"
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 function App() {
 
@@ -376,6 +377,7 @@ function App() {
 
   const fetchSeniors = async () => {
     const res = await axios.get("http://localhost:5000/api/senior-plans")
+    console.log("SENIORS:", res.data)
     setSeniors(res.data)
   }
 
@@ -390,6 +392,7 @@ function App() {
     return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/.test(password)
   }
 
+  console.log("CURRENT USER:", user)
   return (
     !isLoggedIn ? (
       <div className="auth-container">
@@ -472,7 +475,7 @@ function App() {
                   }
                 >
 
-                  {showLoginPassword ? "Hide" : "View"}
+                  {showLoginPassword ? <FaEyeSlash /> : <FaEye />}
 
                 </span>
 
@@ -538,7 +541,7 @@ function App() {
                   }
                 >
 
-                  {showSignupPassword ? "Hide" : "View"}
+                  {showSignupPassword ? <FaEyeSlash /> : <FaEye />}
 
                 </span>
 
@@ -585,14 +588,10 @@ function App() {
           <button
             className="profile-btn"
             onClick={() =>
-              setShowProfile(
-                !showProfile
-              )
+              setShowProfile(!showProfile)
             }
           >
-
-            👤
-
+            <span>👤</span>
           </button>
           {showProfile && (
             <div
@@ -1023,18 +1022,27 @@ function App() {
                     <p>{s.tips}</p>
                   </div>
 
-                  <div className="actions">
-                    <button type="button" className="edit-btn" onClick={() => handleEdit(s)}>
-                      Edit
-                    </button>
+                  {(s.user?._id || s.user) === user?.id && (
+                    <div className="actions">
 
-                    <button
-                      type="button"
-                      className="delete-btn"
-                      onClick={() => handleDelete(s._id)}>
-                      Delete
-                    </button>
-                  </div>
+                      <button
+                        type="button"
+                        className="edit-btn"
+                        onClick={() => handleEdit(s)}
+                      >
+                        Edit
+                      </button>
+
+                      <button
+                        type="button"
+                        className="delete-btn"
+                        onClick={() => handleDelete(s._id)}
+                      >
+                        Delete
+                      </button>
+
+                    </div>
+                  )}
 
                 </div>
               ))}

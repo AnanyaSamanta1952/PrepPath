@@ -18,10 +18,16 @@ router.post("/senior-plan", authMiddleware, async (req, res) => {
 // GET - Get all Senior Plans
 router.get("/senior-plans", async (req, res) => {
     try {
+
         const plans = await SeniorPlan.find()
+            .populate("user", "_id")
+
         res.json(plans)
+
     } catch (error) {
-        res.status(500).json({ error: error.message })
+        res.status(500).json({
+            error: error.message
+        })
     }
 })
 
