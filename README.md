@@ -1,6 +1,6 @@
 <b>Inspiration</b>
 
-Most placement prep resources — LeetCode lists, YouTube playlists, generic "roadmaps" — tell you what to do but never tell you where you actually stand. As a student preparing for placements myself, I kept running into the same question: is solving 70 DSA problems and having 2 projects actually enough to get placed, or am I behind? There was no way to benchmark my own preparation against people who had actually been placed, and no easy way to learn from seniors' real experiences instead of scattered, unverified advice. I wanted to build something that turns "am I ready?" into a data-backed answer instead of a guess.
+Most placement prep resources — LeetCode lists, YouTube playlists, generic "roadmaps" — tell you what to do but never tell you where you actually stand. As a student preparing for placements myself, I kept running into the same question: is solving 70 DSA problems and having 2 projects actually enough to get placed, or am I behind? There was no way to benchmark my own preparation against people who had actually been placed, and no easy way to learn from senior's real experiences instead of scattered, unverified advice. I wanted to build something that turns "am I ready?" into a data-backed answer instead of a guess.
 <br>
 
 <b>Solution</b>
