@@ -5,7 +5,7 @@ Most placement prep resources — LeetCode lists, YouTube playlists, generic "ro
 
 <b>Solution</b>
 
-I built PrepPath, a full-stack platform that combines real senior placement experiences with a machine learning model to give students an honest, personalized placement-readiness report.
+PrepPath, a full-stack platform that combines real senior placement experiences with a machine learning model to give students an honest, personalized placement-readiness report.
 1. Placed seniors can log their placement journey — company, DSA/interview/project/mock experience, and tips — building a searchable, filterable database of real experiences instead of generic advice.
 2. Juniors enter their current stats (DSA problems solved, projects, mock interviews, internships, hackathons), and PrepPath runs them through a trained Logistic Regression model to predict placement probability and a readiness level (High/Medium/Low).
 3. Beyond just a score, the app generates targeted suggestions by comparing the student against three signals: the aggregate training dataset of placed candidates, the seniors registered on the platform, and the closest-matching placed seniors (nearest-neighbor comparison) along with their actual tips.
